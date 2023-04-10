@@ -1,0 +1,11 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  super_glueaxb: "**/super_glueaxb.jsonl"
+  super_glueaxg: "**/super_glueaxg.jsonl"
+  super_gluecb: "**/super_gluecb.jsonl"
+  super_gluemultirc: "**/super_gluemultirc.jsonl"
+workers: 20
+shot: 5

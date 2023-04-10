@@ -1,5 +1,6 @@
 import os
 import re
+import pdb
 import math
 import json
 import random
@@ -11,7 +12,9 @@ from typing import List, Union
 from abc import ABC, abstractmethod
 
 from .configs import BaseConfig, GenerationTaskConfig
+from .prompt import PromptGenerate
 
+from copy import deepcopy
 
 class EvaluationDataset(torch.utils.data.Dataset, ABC):
     """
@@ -27,10 +30,15 @@ class EvaluationDataset(torch.utils.data.Dataset, ABC):
         self.path = path if isinstance(path, list) else [path]
         self.model = model
         self.config = config
+        self.label_list = ["SUM","QA","MUL","NLI"]
+        self.label = None
 
         self.data = []
         for p in self.path:
             self.process_single_file(p)
+            
+        if self.config.shot > 0:
+            self.few_shot(self.config.shot)
 
     @property
     def has_collate_fn(self) -> bool:
@@ -46,8 +54,9 @@ class EvaluationDataset(torch.utils.data.Dataset, ABC):
             examples = random.sample(self.data, self.config.shot)
             prompt = data[0]["text"]
             for example in examples:
-                prompt = example[0]["text"] + "\n" + example[0]["targets"][0] + prompt
+                prompt = example[0]["text"] + "\n" + example[0]["targets"][0] + "\n" + prompt
                 prompt = self.cut_exceed_length(prompt)
+            data[0]["text"] = prompt
             tmp_data.append(data)
         self.data = tmp_data
             
@@ -57,8 +66,6 @@ class EvaluationDataset(torch.utils.data.Dataset, ABC):
                 item = json.loads(line)
                 self.data.append(self.process_single_item(item))
             
-            if self.config.shot > 0:
-                self.few_shot(self.config.shot)
                 
     @abstractmethod
     def process_single_item(self, item, **kwargs) -> List[dict]:
@@ -88,10 +95,20 @@ class GenerationTaskDataset(EvaluationDataset):
         return template
 
     def process_single_item(self, item, **kwargs):
-        input = item.get("input")
-        targets = item.get("targets")
-        if self.config.prompt is not None:
-            input = self.create_prompt(self.config.prompt, item)
+        if item.get("label") in self.label_list:
+            self.label = item.get("label")
+            id_ = item.get("id") # save id
+            prompt_generate = PromptGenerate(item.get("label"), self.config.language)
+            input = prompt_generate.get_input(item)
+            targets = prompt_generate.get_answer(item)
+            if self.label == "MUL" or self.label == "NLI":
+                choices = prompt_generate.get_choices(item)
+                return [{"id": id_, "text": input, "targets": targets, "choices":choices, **kwargs}]
+        else:
+            input = item.get("input")
+            targets = item.get("targets")
+            if self.config.prompt is not None:
+                input = self.create_prompt(self.config.prompt, item)
         input = self.cut_exceed_length(input)
         return [{"text": input, "targets": targets, **kwargs}]
 

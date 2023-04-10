@@ -21,6 +21,7 @@ class BaseConfig(YAMLWizard):
     module: Optional[str] = None  # Custom task module file, optional
     metrics: List[str] = field(default_factory=list)  # Evaluation metrics
     save_prediction: bool = True
+    save_evaluation: bool = True
     file_pattern: str | Dict[str, str] = "**/*.json*"  # Organize data file in groups
 
     workers: int = 1
@@ -36,13 +37,13 @@ class BaseConfig(YAMLWizard):
 @dataclass
 class MultiChoiceTaskConfig(BaseConfig):
     module = "evaluation.MultiChoiceTask"
-    metrics: List[str] = field(default_factory=lambda: ["Accuracy"])
+    metrics: List[str] = field(default_factory=lambda: ["ACC"])
 
 
 @dataclass
 class GenerationTaskConfig(BaseConfig):
     module = "evaluation.GenerationTask"
-    metrics: List[str] = field(default_factory=lambda: ["BLEU", "ROUGE"])
+    metrics: List[str] = field(default_factory=lambda: ["ACC", "BLEU", "ROUGE"])
 
 @dataclass
 class LanguageModelTaskConfig(BaseConfig):

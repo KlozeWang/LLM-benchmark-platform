@@ -1,9 +1,7 @@
 name: "test-Summ"
 type: "gen"
 path: "test/data"
-module: "tasks.test.task.ExampleTask"
+module: "evaluation.tasks.GenerationTask"
 file-pattern:
-  Newsroom: "**/Newsroom.jsonl"
   REALSumm: "**/REALSumm.jsonl"
 workers: 20
-shot: 0

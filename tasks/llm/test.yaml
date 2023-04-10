@@ -1,0 +1,8 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  test: "**/test.jsonl"
+workers: 5
+shot: 1

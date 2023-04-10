@@ -1,6 +1,7 @@
 import os
 import time
 import torch
+import json
 import jsonlines
 import numpy as np
 from tqdm import tqdm
@@ -12,7 +13,7 @@ from os.path import join, relpath
 from collections import defaultdict
 
 
-from .configs import BaseConfig, GenerationTaskConfig, LanguageModelTaskConfig
+from .configs import BaseConfig, GenerationTaskConfig, LanguageModelTaskConfig, MultiChoiceTaskConfig
 from .dataset import EvaluationDataset, GenerationTaskDataset
 from .utils import print_rank_0
 from .metrics import DEFAULT_METRICS
@@ -40,8 +41,12 @@ class BaseTask(ABC):
 
         self.file_groups = self.get_file_groups()
         self.save_prediction = config.save_prediction
+        self.save_evaluation = config.save_evaluation
 
     def save_prediction_to_file(self, file, prediction, data):
+        pass
+
+    def save_evaluation_to_file(self, res_dict):
         pass
 
     def get_file_groups(self):
@@ -72,6 +77,7 @@ class BaseTask(ABC):
             result_dict_group = {}
             for file in filelist:
                 dataset = self.build_dataset(file)
+                '''
                 dataloader = torch.utils.data.DataLoader(
                     dataset,
                     batch_size=self.config.workers,
@@ -82,13 +88,16 @@ class BaseTask(ABC):
                     collate_fn=dataset.collate_fn if dataset.has_collate_fn else None,
                 )
 
-                prediction = []
+                prediction = [] # prediction:List[str]
                 with torch.no_grad():
                     for _, batch in tqdm(enumerate(dataloader)):
                         prediction.extend(self.predict_single_batch(batch))
 
-                #prediction = gather_result(prediction, len(dataset), self.config.micro_batch_size)
-                #result_dict = {key: metric(prediction, dataset.data) for key, metric in self.metrics.items()}
+                '''  
+                prediction = []
+                with torch.no_grad():
+                    prediction = self.predict_single_batch(dataset)
+                
                 result_dict = {}
                 for key, metric in self.metrics.items():
                     metric_result = metric(prediction, dataset.data)
@@ -102,6 +111,40 @@ class BaseTask(ABC):
                     self.save_prediction_to_file(file, prediction, dataset.data)
 
                 self.report_single_metrics(file, result_dict)
+
+                
+                if self.save_prediction: # first save and evaluate 
+                    self.save_prediction_to_file(file, prediction, dataset.data)
+
+                #prediction = gather_result(prediction, len(dataset), self.config.micro_batch_size)
+                #result_dict = {key: metric(prediction, dataset.data) for key, metric in self.metrics.items()}
+                
+                try:
+                    ## evaluation
+                    result_dict = {}
+                    for key, metric in self.metrics.items():
+                        metric_result = metric(prediction, dataset.data)
+                        if isinstance(metric_result,dict):
+                            for sub_key, sub_metric in metric_result.items():
+                                result_dict[sub_key] = sub_metric
+                        else:
+                            result_dict[key] = metric_result
+
+                    if self.save_evaluation:
+                        result_dict["length"] = len(dataset)
+                        self.save_evaluation_to_file(file, result_dict)
+                    
+                    result_dict_group[file] = (result_dict, len(dataset))
+
+                    self.report_single_metrics(file, result_dict)
+                except Exception as e:
+                    print(f"error in evaluation {file} : {e}")
+                    result_dict = {}
+                    result_dict["error"] = f"error in evaluation {file} : {e}"
+                    if self.save_evaluation:
+                        result_dict["length"] = len(dataset)
+                        self.save_evaluation_to_file(file, result_dict)
+
             result_dict_all[group_name] = result_dict_group
 
         print_rank_0(f"Evaluation results of task {self.config.name}:")
@@ -182,6 +225,13 @@ class GenerationTask(BaseTask, ABC):
                 output_data = org_data[0]
                 output_data["prediction"] = item
                 file.write(output_data)
+    
+    def save_evaluation_to_file(self, file, res_dict):
+        filename = os.path.join("outputs", self.config.name, f"{self.model_name}.{file}.evaluate.json")
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(json.dumps(res_dict, indent=2))
+            f.close()
 
     def __init__(self, model, tokenizer = [], config = []):
         super(GenerationTask, self).__init__(model, tokenizer, config)
@@ -189,6 +239,4 @@ class GenerationTask(BaseTask, ABC):
     def predict_single_batch(self, batch) -> List[List[int]]:
         output = self.model.generate_text(batch)
         return output
-
-
 

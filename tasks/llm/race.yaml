@@ -1,0 +1,11 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  Raceall: "**/raceall.jsonl"
+  Racehigh: "**/racehigh.jsonl"
+  Racemiddle: "**/racemiddle.jsonl"
+
+workers: 20
+shot: 5
