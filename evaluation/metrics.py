@@ -8,10 +8,11 @@ import numpy as np
 from typing import List
 from collections import Counter
 from collections import defaultdict
-#from SwissArmyTransformer import get_tokenizer
+# from SwissArmyTransformer import get_tokenizer
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 
 from .utils import print_rank_0
+
 
 def word_bleu_score(reference, candidate):
     reference_tokens = list(reference)
@@ -37,16 +38,18 @@ def normalize_answer(s):
 
     def lower(text):
         return text.lower()
+
     if len(s) < 3:
         return white_space_fix(remove_punc(lower(s)))
     return white_space_fix(remove_articles(remove_punc(lower(s))))
+
 
 def bleu_score(predictions, ground_truths):
     # for short reference add weights?
     bleu = []
     smoothing = SmoothingFunction()
     for prediction, ground_truth in zip(predictions, ground_truths):
-        if not isinstance(prediction,str):
+        if not isinstance(prediction, str):
             print("Return error")
             continue
         prediction = normalize_answer(prediction).split()
@@ -57,13 +60,14 @@ def bleu_score(predictions, ground_truths):
     bleu_score = np.mean(bleu)
     return bleu_score
 
+
 def rouge_score(predictions, ground_truths):
     rouge = Rouge()
     rouge_1_list = []
     rouge_2_list = []
     rouge_l_list = []
     for prediction, ground_truth in zip(predictions, ground_truths):
-        if not isinstance(prediction,str):
+        if not isinstance(prediction, str):
             print("Return error")
             continue
         prediction = normalize_answer(prediction).split()
@@ -82,7 +86,7 @@ def rouge_score(predictions, ground_truths):
             rouge_1 = max(rouge_1, rouge.get_scores(turth, prediction)[0]['rouge-1']["f"])
             rouge_2 = max(rouge_2, rouge.get_scores(turth, prediction)[0]['rouge-2']["f"])
             rouge_l = max(rouge_l, rouge.get_scores(turth, prediction)[0]['rouge-l']["f"])
-        
+
         rouge_1_list.append(rouge_1)
         rouge_2_list.append(rouge_2)
         rouge_l_list.append(rouge_l)
@@ -91,7 +95,8 @@ def rouge_score(predictions, ground_truths):
     rouge_2 = np.mean(rouge_2_list)
     rouge_l = np.mean(rouge_l_list)
 
-    return {"ROUGE-1": rouge_1,"ROUGE-2": rouge_2,"ROUGE-L": rouge_l}
+    return {"ROUGE-1": rouge_1, "ROUGE-2": rouge_2, "ROUGE-L": rouge_l}
+
 
 def acc_for_multi(predictions, ground_truths):
     acc = 0
@@ -102,7 +107,7 @@ def acc_for_multi(predictions, ground_truths):
     idx = 0
     for prediction, ground_truth in zip(predictions, ground_truths):
         idx = idx + 1
-        if not isinstance(prediction,str):
+        if not isinstance(prediction, str):
             print("Return error")
             continue
         is_correct = False
@@ -113,7 +118,6 @@ def acc_for_multi(predictions, ground_truths):
         for exact_answer in ground_truth[0]['targets']:
             if prediction == normalize_answer(exact_answer) or prediction in normalize_answer(exact_answer):
                 acc = acc + 1
-                print(prediction,normalize_answer(exact_answer),acc)
                 is_correct = True
         if is_correct:
             continue
@@ -121,14 +125,14 @@ def acc_for_multi(predictions, ground_truths):
         # 选择题经常是短选项，因此使用字母计算bleu。后续可考虑改成glm token F1 score
         for choice in ground_truth[0].get("choices"):
             choice = normalize_answer(choice)
-            print(choice,prediction,word_bleu_score(choice, prediction),acc)
             choices_bleu.append(word_bleu_score(choice, prediction))
-            
+
         correct_index = ground_truth[0]['choices'].index(ground_truth[0]['targets'][0])
         if choices_bleu.index(max(choices_bleu)) == correct_index:
             acc = acc + 1
 
-    return acc/tt
+    return acc / tt
+
 
 def calculate_perplexity(loss: List[float], data):
     return math.exp(min(20, np.sum(loss) / data[0]["num_original_tokens"]))
