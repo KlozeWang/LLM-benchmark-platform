@@ -1,0 +1,500 @@
+{"question": "A:What wrong with you ? You look pale ?", "choices": ["Two minutes ", "four hours", "Five seconds"], "answer": "four hours", "label": "MUL"}
+{"question": "A:Good morning Mike !", "choices": ["nine minutes", "six months", "eight years"], "answer": "six months", "label": "MUL"}
+{"question": "A:Good morning , Wilson Association .", "choices": ["ten o'clock today morning", "six o'clock tomorrow evening ", "ten o'clock tomorrow morning"], "answer": "ten o'clock tomorrow morning", "label": "MUL"}
+{"question": "A:What day is it ?", "choices": ["10 seconds from now", "two weeks from now", "27 weeks from now"], "answer": "two weeks from now", "label": "MUL"}
+{"question": "A:What is this eviction notice for ?", "choices": ["30 days", "6 months ", "one day "], "answer": "30 days", "label": "MUL"}
+{"question": "A:Hello , I bought a China dress in your shop this morning .", "choices": ["2 AM", "8 o'clock", "11 PM"], "answer": "8 o'clock", "label": "MUL"}
+{"question": "A:Hello , I'd like to subscribe to a magazine .", "choices": ["six months", "65 minutes", "ten years"], "answer": "ten years", "label": "MUL"}
+{"question": "A:You like Titanic ? That movie is so cheesy .", "choices": ["the next 19 minutes", "the next two months", "the next 97 years"], "answer": "the next two months", "label": "MUL"}
+{"question": "A:Hello !", "choices": ["10:00 PM ", "2 o'clock", "tomorrow morning at 9 am"], "answer": "tomorrow morning at 9 am", "label": "MUL"}
+{"question": "A:How long have you been in this company ?", "choices": ["the past week", "the past two years", "the past two decades"], "answer": "the past two years", "label": "MUL"}
+{"question": "A:Hi , Jenny . Are you going to school now ?", "choices": ["nine days", "two years", "nine seconds"], "answer": "two years", "label": "MUL"}
+{"question": "A:Hi , Kate .", "choices": ["two hours", "three months", "3 years"], "answer": "three months", "label": "MUL"}
+{"question": "A:Come in , Arnold . Have a seat .", "choices": ["every two weeks", "every Tuesday", "every ninety minutes"], "answer": "every two weeks", "label": "MUL"}
+{"question": "A:Repair service , how may I help you ?", "choices": ["about 9 days ", "About five years old", "about five months "], "answer": "About five years old", "label": "MUL"}
+{"question": "A:May I ask you how much this position pays per year ?", "choices": ["65-minute ", "3 weeks", "40-week "], "answer": "3 weeks", "label": "MUL"}
+{"question": "A:How may I help you ?", "choices": ["two weeks", "a day ", "25 minutes "], "answer": "two weeks", "label": "MUL"}
+{"question": "A:What's your apartment like ?", "choices": ["6 days", "9 months", "6 months"], "answer": "6 months", "label": "MUL"}
+{"question": "A:Welcome to the National Post . How may I help you ?", "choices": ["about twenty to twenty five", "about three to fifteen", "about five to eight"], "answer": "about five to eight", "label": "MUL"}
+{"question": "A:What can I help you with ?", "choices": ["three minutes", "six months", "one day"], "answer": "one day", "label": "MUL"}
+{"question": "A:Where are you going for your holidays , Charles ?", "choices": ["one year", "three weeks", "two days"], "answer": "three weeks", "label": "MUL"}
+{"question": "A:So Chris , I've heard that you're from a big family . How many people ?", "choices": ["18-year", "9-days", "ten-year"], "answer": "ten-year", "label": "MUL"}
+{"question": "A:Good evening , sir . Welcome to the Comfort Inn .", "choices": ["7 minutes", "three days", "9 months"], "answer": "three days", "label": "MUL"}
+{"question": "A:Good morning ! May I help you ?", "choices": ["six weeks", "Three hours", "Four months"], "answer": "six weeks", "label": "MUL"}
+{"question": "A:Today I want to invite you to talk about insurance you ' re interested in .", "choices": ["three-hour", "two-week", "five-month"], "answer": "two-week", "label": "MUL"}
+{"question": "A:I really hope to reach an agreement with you today that is suitable and beneficial for us both . I've thought through a lot of these details , and I hope we can have a chance to discuss them and resolve any differences this afternoon .", "choices": ["4 minutes", "60 days", "90 days"], "answer": "90 days", "label": "MUL"}
+{"question": "A:Hi , Dan . What's new ?", "choices": ["the past two years", "the past one second", "the past three days"], "answer": "the past three days", "label": "MUL"}
+{"question": "A:What are we going to do ? I can't get the car out of this ditch . I'm stuck !", "choices": ["about forty-five minutes", "about fifteen seconds ", "about 100 days"], "answer": "about forty-five minutes", "label": "MUL"}
+{"question": "A:Good morning . Venus Real Estate Agency .", "choices": ["one-year", "Two days", "200 months"], "answer": "one-year", "label": "MUL"}
+{"question": "A:What's the matter , Lisa ? You don't look too good .", "choices": ["last two months", "two years", "Last five years"], "answer": "last two months", "label": "MUL"}
+{"question": "A:I don ' t know what I ' m going to do ! It ' s going to be impossible to make ends meet if I lose my job !", "choices": ["about 3 months", "about one day", "about one decade"], "answer": "about 3 months", "label": "MUL"}
+{"question": "A:What is this eviction notice for ?", "choices": ["30-hour ", "65-day ", "30 - day"], "answer": "30 - day", "label": "MUL"}
+{"question": "A:I'll be checking out of the hotel in about 30 minutes .", "choices": ["3 years ", "30 weeks ", "30 seconds"], "answer": "30 seconds", "label": "MUL"}
+{"question": "A:Good morning . I'd like to check out right now .", "choices": ["the last two hours", "the last 103 days", "the last minute"], "answer": "the last two hours", "label": "MUL"}
+{"question": "A:I'm exhausted . My new exercise class is so hard ,", "choices": ["one second", "one month", "one hour"], "answer": "one hour", "label": "MUL"}
+{"question": "A:IBA , Maria speaking . How can I help ?", "choices": ["10 days", "5 weeks", "6 months"], "answer": "6 months", "label": "MUL"}
+{"question": "A:Tell me something about yourself and your past .", "choices": ["eight years", "360-seconds ", "eight days "], "answer": "eight years", "label": "MUL"}
+{"question": "A:Pam , where's the closest ATM ?", "choices": ["24 hours", "5 seconds", "3 minutes "], "answer": "24 hours", "label": "MUL"}
+{"question": "A:Wow , this is drop-dead gorgeous .", "choices": ["seven minutes", "two seconds", "18 hours "], "answer": "seven minutes", "label": "MUL"}
+{"question": "A:To get around your difficulty , Mr . Brown , I'd suggest that you reduce your order by half . You can send in an Addi trional order later .", "choices": ["four years ", "three weeks", "three hours "], "answer": "three weeks", "label": "MUL"}
+{"question": "A:May I help you with something ?", "choices": ["two weeks ago", "25 minutes ", "a day "], "answer": "two weeks ago", "label": "MUL"}
+{"question": "A:Hi , Juliet , I'm treating Mr.Li and his team members from Galp to dinner tomorrow evening.Where do you think I should take them ?", "choices": ["4:00 PM ", "7:00 PM", "12:00 AM"], "answer": "7:00 PM", "label": "MUL"}
+{"question": "A:Hello . Dr . Brown ' s Dental Office . How can I help you ?", "choices": ["10 days", "3 seconds", "48 hours"], "answer": "48 hours", "label": "MUL"}
+{"question": "A:How about the hiking ? It was freezing yesterday , are you all ok ?", "choices": ["9 days", "3 minutes", "6 hours"], "answer": "6 hours", "label": "MUL"}
+{"question": "A:How many people are in your family ?", "choices": ["about seven decades", "about five years", "about two days"], "answer": "about five years", "label": "MUL"}
+{"question": "A:Could you give some information on your European tours ?", "choices": ["ten-day", "three weeks", "24 months"], "answer": "ten-day", "label": "MUL"}
+{"question": "A:Would you talk to me about taking one of Dr . Miller's classes ?", "choices": ["One month", "10 years", "15 years"], "answer": "10 years", "label": "MUL"}
+{"question": "A:Good morning . Can I help you ?", "choices": ["12 o'clock", "2:00 PM ", "9:12 AM "], "answer": "12 o'clock", "label": "MUL"}
+{"question": "A:Good morning , Mr Croft .", "choices": ["9 AM", "7 PM", "2:00 PM"], "answer": "2:00 PM", "label": "MUL"}
+{"question": "A:It's going to strike 12 o'clock . Let's get the firecrackers ready , Rose .", "choices": ["seven days", "two weeks", "thousands of years"], "answer": "thousands of years", "label": "MUL"}
+{"question": "A:Honey , I have something important to say .", "choices": ["June 20", "July 20", "June 18"], "answer": "June 20", "label": "MUL"}
+{"question": "A:When was America discovered , Tony ?", "choices": ["1996", "1492", "2008"], "answer": "1492", "label": "MUL"}
+{"question": "A:Where is your dressing room ?", "choices": ["one day", "7 minutes", "10 years"], "answer": "one day", "label": "MUL"}
+{"question": "A:What is your salary at present ?", "choices": ["Two weeks", "three years ", "three-month"], "answer": "three-month", "label": "MUL"}
+{"question": "A:How often do you use the internet ?", "choices": ["eight hours", "Five minutes ", "Three seconds"], "answer": "eight hours", "label": "MUL"}
+{"question": "A:Honey , I have something important to say .", "choices": ["November 10", "June 20", "July 20"], "answer": "July 20", "label": "MUL"}
+{"question": "A:Will you book a ticket to New York for me ?", "choices": ["1 p.m", "5 o'clock", "9 p.m"], "answer": "5 o'clock", "label": "MUL"}
+{"question": "A:Here are the leads from last week's exhibit as a trade show . There are about forty or so that are hot . You should contact them immediately , in <MASK> if you can . The rest are categorized according to potential and interest.You can see we've got our hot stack , our warm stack , our lukewarm , and our cold but not dead stack .", "choices": ["the next seven days ", "the next 40 seconds ", "the next twenty-four hours"], "answer": "the next twenty-four hours", "label": "MUL"}
+{"question": "A:Hi , how can I help ?", "choices": ["6 seconds", "6 months", "5 years"], "answer": "6 months", "label": "MUL"}
+{"question": "A:Steven , it's <MASK> . I'm going to bed . I'm beat .", "choices": ["ten o'clock", "one o'clock", "six o'clock"], "answer": "ten o'clock", "label": "MUL"}
+{"question": "A:Hi , I ' d like to have my phone turned on , please .", "choices": ["Fifteen minutes ", "45 seconds ", "24 hours"], "answer": "24 hours", "label": "MUL"}
+{"question": "A:Good afternoon , is there a vacant room here ?", "choices": ["two weeks", "50 minutes", "one week"], "answer": "one week", "label": "MUL"}
+{"question": "A:If I understand the terms correctly , the length of the contract would be <MASK> with a one-year option . Is that correct ?", "choices": ["one year", "seven years ", "six minutes "], "answer": "one year", "label": "MUL"}
+{"question": "A:Stephanie ! Did you just get to school ? But you were up and about when I left the dorm this morning ! That was about an hour and a half ago . This happens all the time ! Why do you always take so long to get ready the morning ?", "choices": ["hour", "twenty seconds", "twenty minutes"], "answer": "twenty minutes", "label": "MUL"}
+{"question": "A:Li Lei , can you tell me what the origin of Easter is ?", "choices": ["three days", "21 minutes", "twenty days"], "answer": "three days", "label": "MUL"}
+{"question": "A:Have you had a chance to look over the contract ?", "choices": ["22 hours", "10 minutes", "15 hours"], "answer": "22 hours", "label": "MUL"}
+{"question": "A:Good afternoon . May I help you ?", "choices": ["three days", "one year", "six decades"], "answer": "one year", "label": "MUL"}
+{"question": "A:We're having a sixties party next week . Do you want to come ?", "choices": ["nineties", "twenties", "sixties"], "answer": "sixties", "label": "MUL"}
+{"question": "A:Excuse me.May I see the manager of your store ?", "choices": ["three pm ", "11:00 am ", "five pm"], "answer": "five pm", "label": "MUL"}
+{"question": "A:are you ready for the meeting ?", "choices": ["30 days", "30 seconds", "5 years"], "answer": "30 days", "label": "MUL"}
+{"question": "A:My toothache started nearly a month ago . The pain's been keeping me awake . Would you please have a look ?", "choices": ["4 hours later ", "two seconds later ", "5 minutes later"], "answer": "5 minutes later", "label": "MUL"}
+{"question": "A:Doctor , save my baby , please", "choices": ["three minutes", "three months", "one day"], "answer": "one day", "label": "MUL"}
+{"question": "A:Are you coming to the bridal shower for Jane ?", "choices": ["October 10", "Aug 8", "June 27"], "answer": "Aug 8", "label": "MUL"}
+{"question": "A:I'm free on Sunday . I'd like to take a look in Beijing City , could you tell me where to go ?", "choices": ["9 in the evening", "eight in the morning", "three in the morning"], "answer": "eight in the morning", "label": "MUL"}
+{"question": "A:why are there still so many people overweight despite the current fitness craze ?", "choices": ["45 seconds ", "23 hours ", "6 hours"], "answer": "6 hours", "label": "MUL"}
+{"question": "A:How good are you at sports , Bill ?", "choices": ["15 hours ", "about two hours", "three seconds "], "answer": "about two hours", "label": "MUL"}
+{"question": "A:Yes , sir . May I help you ?", "choices": ["ten AM", "four AM", "9:30 PM"], "answer": "ten AM", "label": "MUL"}
+{"question": "A:The Spring Festival is drawing close . By then we will have five days off . I am expecting it .", "choices": ["23 hours midnight", "12 hours midnight", "24 hours midnight"], "answer": "24 hours midnight", "label": "MUL"}
+{"question": "A:My name is Sue . How do you do , Mr . Black ?", "choices": ["two-week", "five-hour", "nine-month"], "answer": "two-week", "label": "MUL"}
+{"question": "A:I see by your resume that you have been working ?", "choices": ["55 years", "8 minutes", "four years"], "answer": "four years", "label": "MUL"}
+{"question": "A:Can you give me more details on what is included in the package ?", "choices": ["Four minutes", "Five seconds", "eight hours"], "answer": "eight hours", "label": "MUL"}
+{"question": "A:A guy in my office got the flu the other day . Today I seem to have come down with it , too .", "choices": ["two days", "four years", "two months"], "answer": "two days", "label": "MUL"}
+{"question": "A:Your English has really improved in <MASK> you've been here , too .", "choices": ["the three years ", "the two months", "the five hours "], "answer": "the two months", "label": "MUL"}
+{"question": "A:I came in response to your advertisement for a salesperson .", "choices": ["a week ago", "five years ago", "two decades ago"], "answer": "five years ago", "label": "MUL"}
+{"question": "A:Excuse me , is this the Auto Consumer Loan Center ?", "choices": ["no m ore than 3 decades", "no more than 5 years", "no more than 3 days"], "answer": "no more than 5 years", "label": "MUL"}
+{"question": "A:Do you have any direct flights to Toronto ?", "choices": ["About 8 minutes", "About 13 hours", "About 1 hour"], "answer": "About 13 hours", "label": "MUL"}
+{"question": "A:Do you think chinese families have changed much in <MASK> ?", "choices": ["the last four years", "the last 50 years", "the last three decades"], "answer": "the last 50 years", "label": "MUL"}
+{"question": "A:I've come to hear about your offer .", "choices": ["7 weeks ", "10 seconds ", "five days"], "answer": "five days", "label": "MUL"}
+{"question": "A:Adam . I ' m sorry .", "choices": ["five minutes", "an hour", "one second"], "answer": "five minutes", "label": "MUL"}
+{"question": "A:Hello , Doctor .", "choices": ["about four months", "About two months", "about ten months"], "answer": "About two months", "label": "MUL"}
+{"question": "A:I would like to take my vacation next month .", "choices": ["two weeks", "half day", "six months"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Hey Ayden , I was wondering if you could do me a favor .", "choices": ["3:00 PM", "6:00 PM", "11:00 PM"], "answer": "6:00 PM", "label": "MUL"}
+{"question": "A:Hello . Could I speak to Justin , please ?", "choices": ["about half past three", "about a quarter after ten", "about a quarter after seven"], "answer": "about a quarter after seven", "label": "MUL"}
+{"question": "A:I see there are some workmen on the site . When is the building work due to start ?", "choices": ["ten weeks", "three weeks", "34 seconds"], "answer": "three weeks", "label": "MUL"}
+{"question": "A:Excuse me . I've been waiting for my main dish for quite a time .", "choices": ["another ten to fifteen minutes", "another ten to fifteen seconds", "another 50 to 60 minutes"], "answer": "another ten to fifteen minutes", "label": "MUL"}
+{"question": "A:Mr . Black , when is the earliest shipment you can make ?", "choices": ["three minutes", "two days", "one month"], "answer": "one month", "label": "MUL"}
+{"question": "A:Jill , how do you like your new job ?", "choices": ["6 months ago ", "two weeks ago", "2 minutes ago "], "answer": "two weeks ago", "label": "MUL"}
+{"question": "A:I've been waiting here in the conference room for ten minutes already . What time does our meeting start ? Where is everyone anyway ?", "choices": ["three days ago", "one year ago", "ten minutes ago"], "answer": "three days ago", "label": "MUL"}
+{"question": "A:hello , Kate ! How are you doing ?", "choices": ["two years later", "two weeks later", "three seconds later"], "answer": "two weeks later", "label": "MUL"}
+{"question": "A:Right Rebecca . Now I see that after graduating from University your first job was ...", "choices": ["two years", "6 days", "20 years"], "answer": "two years", "label": "MUL"}
+{"question": "A:Good morning ! May I help you ?", "choices": ["two weeks", "six hours ", "two months "], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Look ! Mom , that's amazing ! I can't believe the girls have so neat movements .", "choices": ["one-day", "thirty-year", "ten-year"], "answer": "ten-year", "label": "MUL"}
+{"question": "A:Are you free on the thirteenth in the afternoon ?", "choices": ["ten o'clock", "two o'clock", "five o'clock"], "answer": "two o'clock", "label": "MUL"}
+{"question": "A:Why should I buy this MD player ?", "choices": ["about 10 hours", "about 3 days", "about 160 seconds"], "answer": "about 10 hours", "label": "MUL"}
+{"question": "A:Now please tell me something about your achievements in your work unit .", "choices": ["the past two years", "the past two months", "the past ten weeks"], "answer": "the past two years", "label": "MUL"}
+{"question": "A:Hi , Xavier . I'd like to go over the list of jobs for next week's maintenance shut .", "choices": ["about six hours", "about twenty hours", "about six seconds"], "answer": "about six hours", "label": "MUL"}
+{"question": "A:Our company is going to do some cutbacks soon .", "choices": ["three months", "one year", "two days"], "answer": "three months", "label": "MUL"}
+{"question": "A:How much tea are you going to order ?", "choices": ["June 30", "September 12", "July 30"], "answer": "June 30", "label": "MUL"}
+{"question": "A:How's Jimmy today ?", "choices": ["about twenty three hours", "about two seconds", "about two hours"], "answer": "about two hours", "label": "MUL"}
+{"question": "A:So , now we have covered all the important points .", "choices": ["one month ", "three days later", "10 minutes "], "answer": "three days later", "label": "MUL"}
+{"question": "A:Hello , Anna speaking !", "choices": ["Tonight 11 o'clock", "Tonight 2 o'clock", "Tonight 8 o'clock"], "answer": "Tonight 8 o'clock", "label": "MUL"}
+{"question": "A:Now we have settled the terms of payment . Is it possible to effect shipment during September ?", "choices": ["two to three days", "four to five years", "four to five weeks"], "answer": "four to five weeks", "label": "MUL"}
+{"question": "A:Finally the class is over . Be quick . Ben must have been waiting for long .", "choices": ["three hours", "two months", "ten years"], "answer": "ten years", "label": "MUL"}
+{"question": "A:Good afternoon , Sir . You're here to see about a Temporary Loan , right ? The loans we offer are for purchasing income-generating assets . Is that what you require ?", "choices": ["90 - day", "60 - minute", "90 - month"], "answer": "90 - day", "label": "MUL"}
+{"question": "A:Could I ask some questions regarding to the social benefits ?", "choices": ["Two minutes", "Five months", "two days"], "answer": "two days", "label": "MUL"}
+{"question": "A:How is everything going with your girlfriend ?", "choices": ["15 years", "7 years", "one year"], "answer": "one year", "label": "MUL"}
+{"question": "A:Shakespeare was born in <MASK> .", "choices": ["1547", "1867", "1865"], "answer": "1867", "label": "MUL"}
+{"question": "A:are you ready for the meeting ?", "choices": ["30 days", "6 months ", "30 minutes "], "answer": "30 days", "label": "MUL"}
+{"question": "A:Good afternoon , Mr Meng ! It's nice to see you today . It's been a while , hasn't it ?", "choices": ["the last one hour", "the last one decade", "the last 6 weeks"], "answer": "the last 6 weeks", "label": "MUL"}
+{"question": "A:Right Rebecca . Now I see that after graduating from University your first job was ...", "choices": ["2031", "2006", "2022"], "answer": "2006", "label": "MUL"}
+{"question": "A:this is the route I thought we could take on our hike on Saturday afternoon .", "choices": ["about four hours", "a few minutes", "about ten hours"], "answer": "about four hours", "label": "MUL"}
+{"question": "A:This is today ' s schedule . At 8: 30AM , conference with the department managers . At 9 o ' clock , live for the workshop where you ' ll award prizes to the staff for preventatives .", "choices": ["8: 30AM", "2 PM", "10:00 AM"], "answer": "10:00 AM", "label": "MUL"}
+{"question": "A:How much does it cost to hire a motorbike ?", "choices": ["60 minutes", "30 days", "7 days"], "answer": "7 days", "label": "MUL"}
+{"question": "A:Excuse me . Do you study Chinese at the university here ?", "choices": ["10 hours", "90 minutes", "45 seconds"], "answer": "90 minutes", "label": "MUL"}
+{"question": "A:Our new production control program's going live on Monday . The old and the new programs will operate in tandem for <MASK> . That should give us time to iron out any little problems .", "choices": ["four to six weeks", "four to six years", "four to six days"], "answer": "four to six weeks", "label": "MUL"}
+{"question": "A:Can you tell me what the date and time of our field trip is ?", "choices": ["8 in the afternoon", "6 in the morning", "5 in the evening"], "answer": "5 in the evening", "label": "MUL"}
+{"question": "A:Hi , I would like to purchase a one way ticket to Brussels , please .", "choices": ["nine am", "twelve am", "nine pm"], "answer": "nine pm", "label": "MUL"}
+{"question": "A:Shall we go to the library by subway ?", "choices": ["seven days", "three days", "one hour"], "answer": "seven days", "label": "MUL"}
+{"question": "A:Good morning , sir . Can I help you ?", "choices": ["two days", "20 seconds", "10 years"], "answer": "two days", "label": "MUL"}
+{"question": "A:Hi , I would like to purchase a one way ticket to Brussels , please .", "choices": ["about 12 seconds ", "at least thirty minutes ", "About twelve hours"], "answer": "About twelve hours", "label": "MUL"}
+{"question": "A:Right , let me run through your options . You can go ahead and cash your undue Large-Amount Deposit Certificate if you really want to , but I'd recommend a Personal Durable Commodities Loan .", "choices": ["2 minutes", "25 years", "2 months"], "answer": "2 months", "label": "MUL"}
+{"question": "A:Good morning , Madam . Can I help you ?", "choices": ["one year", "two days", "one month"], "answer": "two days", "label": "MUL"}
+{"question": "A:What are your working hours ?", "choices": ["twelve in the morning", "eleven PM ", "three AM "], "answer": "twelve in the morning", "label": "MUL"}
+{"question": "A:Tell me a little bit about yourself , please .", "choices": ["10 years", "3 years", "ten days"], "answer": "3 years", "label": "MUL"}
+{"question": "A:Please sit down .", "choices": ["six days", "two years", "one month"], "answer": "two years", "label": "MUL"}
+{"question": "A:Even with volume sales our costs for the Exec User won't go down much .", "choices": ["the next six months", "the next 25 years", "the next 10 days"], "answer": "the next six months", "label": "MUL"}
+{"question": "A:At last ! The weekend comes again !", "choices": ["30 minutes ", "five days ", "two days"], "answer": "two days", "label": "MUL"}
+{"question": "A:Our benefits usually include medical insurance , public accumulation fund and allowances .", "choices": ["nine months", "200 seconds", "five days"], "answer": "five days", "label": "MUL"}
+{"question": "A:Hey , there's Leo . I wonder why he's walking arm in arm with that young woman .", "choices": ["two weeks", "three months", "thirty years"], "answer": "thirty years", "label": "MUL"}
+{"question": "A:I ' m tired , Larry . Can we have a break ?", "choices": ["twenty minutes", "one-day", "Five seconds "], "answer": "one-day", "label": "MUL"}
+{"question": "A:Well , everything is packed and ready to go .", "choices": ["The past five years", "The past two weeks", "The past two hours"], "answer": "The past two weeks", "label": "MUL"}
+{"question": "A:Excuse me , is this personnel division ?", "choices": ["a month", "50 minutes", "seven years"], "answer": "seven years", "label": "MUL"}
+{"question": "A:hi , how are you doing ?", "choices": ["80 minutes ago", "two years ago", "two second ago"], "answer": "two years ago", "label": "MUL"}
+{"question": "A:Hello , this is Francis from XYZ Company . I would like to discuss with you about a new project some time next week . Do you have time to meet ?", "choices": ["fifteen PM", "fifty AM", "ten AM"], "answer": "fifteen PM", "label": "MUL"}
+{"question": "A:May I come in ?", "choices": ["3 years ago", "three months ago", "4 days ago"], "answer": "three months ago", "label": "MUL"}
+{"question": "A:Okay , now I ' d like to find out more about your last job . I see you spent almost <MASK> at the London Weekly , is that right ?", "choices": ["Five months", "Ten days", "four years"], "answer": "four years", "label": "MUL"}
+{"question": "A:Have you had a chance to look over the contract ?", "choices": ["a year", "the first two weeks", "300 seconds"], "answer": "the first two weeks", "label": "MUL"}
+{"question": "A:Are you an art aficionado ?", "choices": ["four hours", "51 hours ", "12 seconds "], "answer": "four hours", "label": "MUL"}
+{"question": "A:May I see your passport please ?", "choices": ["twelve days from now", "ninety years from now", "two hours from now"], "answer": "twelve days from now", "label": "MUL"}
+{"question": "A:Come in , please .", "choices": ["3 months", "3 years", "8 minutes"], "answer": "3 months", "label": "MUL"}
+{"question": "A:I think I've looked everywhere , but I haven't seen a swimming pool here .", "choices": ["10 hours", "7 seconds", "seven days"], "answer": "seven days", "label": "MUL"}
+{"question": "A:Good afternoon , madam . How can I help you ?", "choices": ["one hour", "4 minutes", "one month"], "answer": "one month", "label": "MUL"}
+{"question": "A:Excuse me , Professor , is there a time when I could meet with you ?", "choices": ["2:00 AM", "three o'clock", "4:00 PM"], "answer": "three o'clock", "label": "MUL"}
+{"question": "A:Good morning ! May I help you ?", "choices": ["twelve o'clock", "nine o'clock", "five o'clock"], "answer": "nine o'clock", "label": "MUL"}
+{"question": "A:I'm so hungry ! I haven't late eaten all day !", "choices": ["16 years", "a week", "one month"], "answer": "one month", "label": "MUL"}
+{"question": "A:Good Morning Ann .", "choices": ["9:30 AM", "5:00 PM", "11:30 PM"], "answer": "5:00 PM", "label": "MUL"}
+{"question": "A:Are you still busy today ?", "choices": ["one year", "ten years", "one day"], "answer": "one day", "label": "MUL"}
+{"question": "A:May I see your passport please ?", "choices": ["two weeks", "a couple days", "twelve years"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Trina , will you marry me ?", "choices": ["the next six months", "the next Four hundred days", "the next six minutes"], "answer": "the next six months", "label": "MUL"}
+{"question": "A:Well , we've been waiting for our baggage for <MASK> .", "choices": ["about one hour", "eleven-seven hours", "1106 seconds"], "answer": "about one hour", "label": "MUL"}
+{"question": "A:Hey , man , look , what's on the wall over there ?", "choices": ["20-month", "7-hour", "10 - day"], "answer": "10 - day", "label": "MUL"}
+{"question": "A:Morning , Madam . This is the window for Foreign Exchange Savings . How can I help you ?", "choices": ["6 decades", "6 days", "2 years"], "answer": "2 years", "label": "MUL"}
+{"question": "A:How are you doing ? Pretty good , I imagine ?", "choices": ["One month", "Two weeks", "five years"], "answer": "five years", "label": "MUL"}
+{"question": "A:Has the game started yet ?", "choices": ["two weeks ago ", "about 5 minutes ago", "one second ago "], "answer": "about 5 minutes ago", "label": "MUL"}
+{"question": "A:Hello.Is this room service ?", "choices": ["an hour", "15 minutes", "14 seconds"], "answer": "15 minutes", "label": "MUL"}
+{"question": "A:We're having a <MASK> party next week . Do you want to come ?", "choices": ["nineties", "sixties", "twenties"], "answer": "sixties", "label": "MUL"}
+{"question": "A:Dad , what's the date ?", "choices": ["March seven", "December eighteenth", "December fifteen"], "answer": "December eighteenth", "label": "MUL"}
+{"question": "A:your mp3 looks so cool . Where did you get it ?", "choices": ["seven seconds ", "22 hours", "24 hours"], "answer": "24 hours", "label": "MUL"}
+{"question": "A:Is your city a historical place ?", "choices": ["Ten years", "200 years ago", "Five months"], "answer": "200 years ago", "label": "MUL"}
+{"question": "A:Hi , Kenji .", "choices": ["1:00 pm ", "6 o'clock", "12:00 am "], "answer": "6 o'clock", "label": "MUL"}
+{"question": "A:It's my first visit to Prague , I'll be here for three days for a conference , then I have a day on my own to do some sightseeing before I head back home . What do you suggest I see when I'm here ?", "choices": ["three years", "five minutes", "four days"], "answer": "four days", "label": "MUL"}
+{"question": "A:Good morning , Mr . Smith .", "choices": ["2:00 AM", "2:00 PM", "9:00 PM"], "answer": "2:00 PM", "label": "MUL"}
+{"question": "A:Doctor , my child is <MASK> , and I recently found that he was constantly telling lies about how he is doing at school .", "choices": ["1-year ", "nine years old", "4-day "], "answer": "nine years old", "label": "MUL"}
+{"question": "A:We are free this afternoon , aren't we , Mr John ?", "choices": ["25 days ago", "three days ago", "5 hours ago"], "answer": "three days ago", "label": "MUL"}
+{"question": "A:So Chris , I've heard that you're from a big family . How many people ?", "choices": ["9 - decades", "18 - year", "4 - day"], "answer": "18 - year", "label": "MUL"}
+{"question": "A:It's time for bed .", "choices": ["7:00 pm ", "6:00 am ", "half past eleven"], "answer": "half past eleven", "label": "MUL"}
+{"question": "A:What's your plan for your future ?", "choices": ["six years", "one hour", "three month"], "answer": "three month", "label": "MUL"}
+{"question": "A:May I help you , sir ?", "choices": ["Five months", "fifteen years", "Two years"], "answer": "fifteen years", "label": "MUL"}
+{"question": "A:I think these patterns are quite good . Can you give me a price indication of these ?", "choices": ["three months", "one day", "ten years"], "answer": "three months", "label": "MUL"}
+{"question": "A:Tell me something about yourself and your past .", "choices": ["one year", "360 days", "eight years"], "answer": "eight years", "label": "MUL"}
+{"question": "A:You are late again , Maria . The teacher is about to come .", "choices": ["fifteen-year-old", "eight-minute-old", "one-year-old"], "answer": "one-year-old", "label": "MUL"}
+{"question": "A:Hello , I'd like to see Mr . Charles , the manager , please .", "choices": ["2 minutes later", "Two weeks later", "One month later"], "answer": "2 minutes later", "label": "MUL"}
+{"question": "A:Good morning , Miss Monica . Nice to meet you again !", "choices": ["more than 9 months", "more than 40 hours", "more than 4 years"], "answer": "more than 4 years", "label": "MUL"}
+{"question": "A:Mr . Black , I ' d like to take some time off . I ' Ve been feeling exhausted these days .", "choices": ["another two weeks", "one minute", "two months"], "answer": "another two weeks", "label": "MUL"}
+{"question": "A:I'd like a double room .", "choices": ["two days", "eight months", "one hour"], "answer": "two days", "label": "MUL"}
+{"question": "A:Hello , I'm sorry for calling this late . May I speak to Peter ?", "choices": ["ten hours", "two seconds", "thirty minutes"], "answer": "thirty minutes", "label": "MUL"}
+{"question": "A:Well , if you have no further questions , then we have done .", "choices": ["four in the evening ", "eleven in the morning", "three in the morning"], "answer": "eleven in the morning", "label": "MUL"}
+{"question": "A:Mary , would you like to get something to eat with me ?", "choices": ["5:00 PM", "10 o'clock", "1:30 PM"], "answer": "10 o'clock", "label": "MUL"}
+{"question": "A:Hello , Is this room service ?", "choices": ["15 minutes", "14 hours", "5 seconds"], "answer": "15 minutes", "label": "MUL"}
+{"question": "A:What do you feel your greatest achievement has been at your current job ?", "choices": ["from last 30 Years ", "The last two years", "from last 40 minutes "], "answer": "The last two years", "label": "MUL"}
+{"question": "A:Now please tell me something about your past work achievements .", "choices": ["2006", "2020", "1925"], "answer": "2006", "label": "MUL"}
+{"question": "A:Ann , let's go , or we will be late .", "choices": ["12 hours", "20 minutes", "10 seconds"], "answer": "20 minutes", "label": "MUL"}
+{"question": "A:Excuse me.May I see the manager of your store ?", "choices": ["Three am", "eight pm", "five pm"], "answer": "five pm", "label": "MUL"}
+{"question": "A:Hey ! Taxi .", "choices": ["about thirty minutes", "Three seconds", "Five hours"], "answer": "about thirty minutes", "label": "MUL"}
+{"question": "A:Good afternoon ! Trans Pacific Airline . How can I help you ?", "choices": ["July 19", "June 15", "July 30"], "answer": "July 19", "label": "MUL"}
+{"question": "A:Mmm ... it is delicious .", "choices": ["two hours", "360 seconds", "forty-five minutes"], "answer": "forty-five minutes", "label": "MUL"}
+{"question": "A:What upsets you ?", "choices": ["three minutes", "three days", "one second"], "answer": "three minutes", "label": "MUL"}
+{"question": "A:Hello , this is Francis from XYZ Company . I would like to discuss with you about a new project some time next week . Do you have time to meet ?", "choices": ["from 9 PM to 10 PM", "from 2 PM to 4 PM", "from 2 AM to 3 AM"], "answer": "from 2 PM to 4 PM", "label": "MUL"}
+{"question": "A:Good afternoon , Chloe , I ' m Doctor Evans.What seems to be the problem ?", "choices": ["at least two minutes", "at least three years", "at least three days"], "answer": "at least three days", "label": "MUL"}
+{"question": "A:Now we have settled the terms of payment . Is it possible to effect shipment during September ?", "choices": ["the first quarter", "the fourth quarter", "the third quarter"], "answer": "the fourth quarter", "label": "MUL"}
+{"question": "A:Can you tell me what the date and time of our field trip is ?", "choices": ["8 months later", "6 days later", "5 minutes later"], "answer": "6 days later", "label": "MUL"}
+{"question": "A:What kind of lease is it ?", "choices": ["one-year", "Five years", "Two months"], "answer": "one-year", "label": "MUL"}
+{"question": "A:Is everything alright ?", "choices": ["about 3 minutes later", "about three hours later", "about 30 minutes later"], "answer": "about 30 minutes later", "label": "MUL"}
+{"question": "A:What were you and Richard talking about earlier ? It looked intense .", "choices": ["28 days", "28 decades", " 36 years"], "answer": " 36 years", "label": "MUL"}
+{"question": "A:I've been told you might have a vacant room .", "choices": ["two seconds", "twenty minutes", "a month"], "answer": "twenty minutes", "label": "MUL"}
+{"question": "A:Excuse me . How long has it been since the business was founded ?", "choices": ["12 years", "2 months", "98 years"], "answer": "12 years", "label": "MUL"}
+{"question": "A:Hey . I'm a visitor from China . I love your music . It's the best I've ever heard . Will you please spare a little bit of time for me ?", "choices": ["today ", "8 years old", "two months"], "answer": "8 years old", "label": "MUL"}
+{"question": "A:First of all , thank you for accepting this job .", "choices": ["2 days ", "9 years", "a month "], "answer": "9 years", "label": "MUL"}
+{"question": "A:We agree to give you a break on the price , all together a discount of 6 % . Good news is , I talked to my boss , he confirmed that if you take care of the shipping costs , we'll throw in insurance .", "choices": ["30 months ", "90 days", "6 days "], "answer": "90 days", "label": "MUL"}
+{"question": "A:Why do you think you are qualified for this position ?", "choices": ["4 years", "9 years", "4 months "], "answer": "4 years", "label": "MUL"}
+{"question": "A:My watch always gains ten minutes a day .", "choices": ["ten minutes", "55 minutes", "5 minutes"], "answer": "ten minutes", "label": "MUL"}
+{"question": "A:Hi , Anna . I haven ' t seen you for ages . Where have you been ?", "choices": ["5 days", "3 minutes", "ten years"], "answer": "5 days", "label": "MUL"}
+{"question": "A:Welcome to IBA Bank , how can we be of service ?", "choices": ["up to 7 days", "up to 7 minutes", "up to one month"], "answer": "up to 7 days", "label": "MUL"}
+{"question": "A:I want to go house shopping , and I want to know what I can afford to buy .", "choices": ["a month", "65 years", "2 years"], "answer": "2 years", "label": "MUL"}
+{"question": "A:I know in your resume that you have worked in your present company for <MASK> , can you tell me why you want to leave your present job and join us ?", "choices": ["3 years", "10 days ", "six months"], "answer": "3 years", "label": "MUL"}
+{"question": "A:How about 15 % the first six months and the second six months at 12 % with a guarantee of 3000 units ?", "choices": ["27 days", "today ", "six months "], "answer": "27 days", "label": "MUL"}
+{"question": "A:How about this floor lamp ?", "choices": ["about an hour", "five hours", "ten hours"], "answer": "five hours", "label": "MUL"}
+{"question": "A:So that concludes the introduction . Now let's move to the first part of my talk , which is about 2006 fiscal year marketing plan . So first , right off the bat , When looking at the marketing plan , tell me some of the goals that we had set this year to begin with ...", "choices": ["2006", "1947", "1992"], "answer": "2006", "label": "MUL"}
+{"question": "A:What's the date today Mr.Brown ? I don't have a calendar .", "choices": ["1 January, 1745. ", "Tuesday , 25th September , 2001", "December 15, 1992. "], "answer": "Tuesday , 25th September , 2001", "label": "MUL"}
+{"question": "A:welcome back ! How was your vacation ?", "choices": ["every 3 days", "every 4 months", "every 1 minute"], "answer": "every 3 days", "label": "MUL"}
+{"question": "A:Good afternoon . May I help you ?", "choices": ["three years", "2 hours ", "six days "], "answer": "three years", "label": "MUL"}
+{"question": "A:Miss Fallen , can you tell me why you want to get a visa to the States ?", "choices": ["three days", "three years", "one year"], "answer": "one year", "label": "MUL"}
+{"question": "A:have you moved into your new house yet , Michael ?", "choices": ["three days old", "two months old", "about 200 years old"], "answer": "about 200 years old", "label": "MUL"}
+{"question": "A:Hey ! Fred , you are <MASK> than me today . Usually , you don't .", "choices": ["one second earlier", "five minutes earlier", "ten hours earlier"], "answer": "five minutes earlier", "label": "MUL"}
+{"question": "A:Stephanie ! Did you just get to school ? But you were up and about when I left the dorm this morning ! That was about an hour and a half ago . This happens all the time ! Why do you always take so long to get ready the morning ?", "choices": ["two seconds", "twenty minutes", "an hour and a half "], "answer": "twenty minutes", "label": "MUL"}
+{"question": "A:Excuse me , do the buses stop here ?", "choices": ["three days ago", "five decades ago", "fifteen years ago"], "answer": "three days ago", "label": "MUL"}
+{"question": "A:Is there anything I can do for you ?", "choices": ["last  15 days", "last 3 hours", "last 1 week"], "answer": "last 3 hours", "label": "MUL"}
+{"question": "A:What time is it ?", "choices": ["seven minutes", "nine hours", "ten minutes"], "answer": "ten minutes", "label": "MUL"}
+{"question": "A:What's the date today Mr.Brown ? I don't have a calendar .", "choices": ["about 6 o'clock", "1 o'clock", "8 o'clock"], "answer": "8 o'clock", "label": "MUL"}
+{"question": "A:Welcome to IBA Bank , how can we be of service ?", "choices": ["7 days", "4 weeks ", "four hours "], "answer": "7 days", "label": "MUL"}
+{"question": "A:You look bright-eyed and bushy-tailed .", "choices": ["Two hours ago", "One month ago", "five minutes ago"], "answer": "five minutes ago", "label": "MUL"}
+{"question": "A:Hi ! I'm Hong lei . What's your name ?", "choices": ["six decades", "a week", "six months"], "answer": "six months", "label": "MUL"}
+{"question": "A:Hi , Ann . I was wondering if you are free tomorrow night ?", "choices": ["at least 50 seconds earlier", "at least 1 hour earlier", "at least 8 hour earlier"], "answer": "at least 1 hour earlier", "label": "MUL"}
+{"question": "A:What's today's date ?", "choices": ["About 2 weeks", "About 5 years", "About 17 minutes"], "answer": "About 2 weeks", "label": "MUL"}
+{"question": "A:Hello ?", "choices": ["nine o'clock", "one o'clock", "four o'clock"], "answer": "four o'clock", "label": "MUL"}
+{"question": "A:Tiffany , why are more and more people turning to the Web to find a mate ?", "choices": ["1847", "2020", "Valentine's Day in 1999"], "answer": "Valentine's Day in 1999", "label": "MUL"}
+{"question": "A:Excuse me.May I see the manager of your store ?", "choices": ["8 days ", "5 years", "3 hours "], "answer": "5 years", "label": "MUL"}
+{"question": "A:Hilton Hotel . Can I help you ?", "choices": ["30 of November ", "24 of January ", "and twenty-sixth of June"], "answer": "and twenty-sixth of June", "label": "MUL"}
+{"question": "A:Hi , Anna . I haven ' t seen you for ages . Where have you been ?", "choices": ["1915", "2020", "1978"], "answer": "1978", "label": "MUL"}
+{"question": "A:Will you book a ticket to New York for me ?", "choices": ["12 o'clock", "4 o'clock", "9p . m"], "answer": "4 o'clock", "label": "MUL"}
+{"question": "A:We'd like to welcome everyone to the Michelson Tools factory site , and thank everyone for being here today . My name is Paul Shafer , I'll be showing you around today . Please feel free to ask questions at any point during our tour , I'll be happy to answer questions for you .", "choices": ["about twenty minutes", "about one minute", "about an hour"], "answer": "about twenty minutes", "label": "MUL"}
+{"question": "A:What's your apartment like ?", "choices": ["6 months", "6 years", "1/2 month"], "answer": "6 months", "label": "MUL"}
+{"question": "A:How much tea are you going to order ?", "choices": ["May 27", "August 15", "June 30"], "answer": "June 30", "label": "MUL"}
+{"question": "A:You know , Mary , I feel we meet somewhere before . Where were you born ?", "choices": ["55 years ago", "five minutes ago", "two years ago"], "answer": "two years ago", "label": "MUL"}
+{"question": "A:Mary , my friend recommend me for a job to work in a company , and I feel it's great .", "choices": ["20 months", "10 days", "10 years"], "answer": "10 years", "label": "MUL"}
+{"question": "A:Good morning . I'd like to buy tickets to Paris .", "choices": ["50 years", "4 months", "7 minutes"], "answer": "4 months", "label": "MUL"}
+{"question": "A:You know Iden , I don ' t know much about you . Where were you born ?", "choices": ["about 30 days ", "about 45 minutes ", "about five years"], "answer": "about five years", "label": "MUL"}
+{"question": "A:Hi . This is the Customer Service . How can I help you ?", "choices": ["four seconds", "two minutes", "65 days"], "answer": "two minutes", "label": "MUL"}
+{"question": "A:Tom , you're my good friend , right ?", "choices": ["two minutes", "ten hours", "two hours"], "answer": "two hours", "label": "MUL"}
+{"question": "A:Ann , it's terrible !", "choices": ["eight minutes", "12 hours", "eight hours"], "answer": "eight hours", "label": "MUL"}
+{"question": "A:What upsets you ?", "choices": ["one second", "three hours", "three minutes"], "answer": "three minutes", "label": "MUL"}
+{"question": "A:Why do you think you are qualified for this position ?", "choices": ["one decade", "4 days", "four years"], "answer": "four years", "label": "MUL"}
+{"question": "A:My wife is sick , so I have to cancel a reservation I made .", "choices": ["nine days", "fifteen minutes", "one second"], "answer": "one second", "label": "MUL"}
+{"question": "A:Good afternoon . Is there a vacant room here ?", "choices": ["four days", "10 minutes", "15 months"], "answer": "four days", "label": "MUL"}
+{"question": "A:How much tea are you going to order ?", "choices": ["June 30", "January 30", "August 15"], "answer": "June 30", "label": "MUL"}
+{"question": "A:How about this floor lamp ?", "choices": ["an hour ", "five hours", "five minutes "], "answer": "five hours", "label": "MUL"}
+{"question": "A:Did you set your clock forward for daylight savings time ?", "choices": ["eight hours", "one hour", "eight seconds"], "answer": "one hour", "label": "MUL"}
+{"question": "A:Have you been registered yet , sir ?", "choices": ["about one month", "About five months", "About ten minutes"], "answer": "about one month", "label": "MUL"}
+{"question": "A:Why do you want to go to the U . S . ?", "choices": ["five hours", "fifteen years", "three years"], "answer": "three years", "label": "MUL"}
+{"question": "A:Right , let me run through your options . You can go ahead and cash your undue Large-Amount Deposit Certificate if you really want to , but I'd recommend a Personal Durable Commodities Loan .", "choices": ["50 minutes", "2 years", "2 months"], "answer": "2 months", "label": "MUL"}
+{"question": "A:Good evening , madam . May I help you ?", "choices": ["20-hour ", "one-hour", "80-second "], "answer": "one-hour", "label": "MUL"}
+{"question": "A:Will you be joining Billy and I at the Bar ?", "choices": ["3:00 PM ", "12:00 AM ", "9:00 PM"], "answer": "9:00 PM", "label": "MUL"}
+{"question": "A:Hi , my name is Pete . You are Ann . Isn't that right ?", "choices": ["today ", "one day", "next year "], "answer": "one day", "label": "MUL"}
+{"question": "A:Hello , I'd like to reserve a hotel room .", "choices": ["Saturday, January 1.", "Friday , April 14", "Wednesday, December 31. "], "answer": "Friday , April 14", "label": "MUL"}
+{"question": "A:Hello , this is Lucy from ABC Company . Is this Monica ?", "choices": ["about 40 minutes", "about 2 days", "about 3 minutes"], "answer": "about 40 minutes", "label": "MUL"}
+{"question": "A:I am really exhausted , you know , I have been working without the weekend for <MASK> . My boss always asks us to work overtime .", "choices": ["two weeks", "5 minutes", "10 years"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Good afternoon . May I help you ?", "choices": ["five years", "Nine years", "Three and half months"], "answer": "five years", "label": "MUL"}
+{"question": "A:May i help you ?", "choices": ["a week", "6 month", "three decade"], "answer": "6 month", "label": "MUL"}
+{"question": "A:What's the matter with me , Doctor ? I feel so tired these days .", "choices": ["20 minutes", "8 hours", "24 hours"], "answer": "24 hours", "label": "MUL"}
+{"question": "A:Okay , here are the graphs and figures for this month's sales . Let's review them all together .", "choices": ["the last two weeks", "the last one year", "the last one day"], "answer": "the last two weeks", "label": "MUL"}
+{"question": "A:Hey , there ' s Leo . I wonder why he ' s walking arm in arm with that young woman .", "choices": ["thirty years", "55 years ", "two years "], "answer": "thirty years", "label": "MUL"}
+{"question": "A:Good morning ! May I help you ?", "choices": ["six weeks", "five hours", "One day"], "answer": "six weeks", "label": "MUL"}
+{"question": "A:Can you develop the roll of film ?", "choices": ["1 minute", "3 hours", "12 hours"], "answer": "3 hours", "label": "MUL"}
+{"question": "A:Good afternoon . How can I help you ?", "choices": ["2:00 PM", "11:00 PM", "3:00 AM"], "answer": "2:00 PM", "label": "MUL"}
+{"question": "A:How are the children doing at sport ?", "choices": ["five minutes", "two seconds", "12 seconds"], "answer": "12 seconds", "label": "MUL"}
+{"question": "A:Have you had a chance to look over the contract ?", "choices": ["15 hours", "3 minutes", "22 hours"], "answer": "22 hours", "label": "MUL"}
+{"question": "A:David , we have been doing business for three years , haven't we ?", "choices": ["three decades", "three years", "one day"], "answer": "three years", "label": "MUL"}
+{"question": "A:Hey , Ann . Wake up . It's time to get out of bed .", "choices": ["14 hours ago ", "two seconds ago", "30 minutes ago"], "answer": "30 minutes ago", "label": "MUL"}
+{"question": "A:Is there a daily passenger ship to Dalian ?", "choices": ["25 days", "an hour", "About one day"], "answer": "About one day", "label": "MUL"}
+{"question": "A:What can I do for you ?", "choices": ["two weeks", "25 seconds", "25 years"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Well , what is your trouble ?", "choices": ["Every second", "Every month", "every four hours"], "answer": "every four hours", "label": "MUL"}
+{"question": "A:So Chris , I've heard that you're from a big family . How many people ?", "choices": ["18 - year", "seven - decade", "ten - day"], "answer": "18 - year", "label": "MUL"}
+{"question": "A:Good evening ! This is Mr . Smith in room 609 .", "choices": ["7 o'clock", "10 o'clock", "3 o'clock"], "answer": "10 o'clock", "label": "MUL"}
+{"question": "A:Mrs . Montgomery ? I ' Ve been trying to figure out when we should have the New Year ' s party . Could you take a book at these dates ?", "choices": ["three seconds", "five days", "five minutes"], "answer": "five minutes", "label": "MUL"}
+{"question": "A:Thank you for purchasing your new mattress with us .", "choices": ["12 o'clock", "3:00 am ", "9:00 pm "], "answer": "12 o'clock", "label": "MUL"}
+{"question": "A:The channel boats are quite fast , aren't they ?", "choices": ["ten days", "7 minutes", "8 years"], "answer": "ten days", "label": "MUL"}
+{"question": "A:Will you look at this form ?", "choices": ["January 12 , 1987", "August 29 , 1998", "July 31 , 1994"], "answer": "January 12 , 1987", "label": "MUL"}
+{"question": "A:So , you friend ' s getting married on Saturday . What have you bought her as a wedding gift . I find is so hard to choose the right gift .", "choices": ["Two months", "Three weeks", "ten years"], "answer": "ten years", "label": "MUL"}
+{"question": "A:You want to go get a facial with me today ?", "choices": ["every night", "one day", "today"], "answer": "one day", "label": "MUL"}
+{"question": "A:Even with volume sales our costs for the Exec User won't go down much .", "choices": ["the first six months", "the first 25 days ", "the first 15 months "], "answer": "the first six months", "label": "MUL"}
+{"question": "A:How long will it take for our order to be delivered ?", "choices": ["2 days ", "3 weeks", "fifty weeks "], "answer": "3 weeks", "label": "MUL"}
+{"question": "A:Good morning , Madam . Can I help you ?", "choices": ["at least two minutes", "at least one week", "at least ten weeks"], "answer": "at least one week", "label": "MUL"}
+{"question": "A:Did you read the news that ' China's property prices rose at the fastest pace in 18 months in December , ending the year with rising fears of bubbles in the property market ' ?", "choices": ["the first quarter", "the third quarter", "the fourth quarter"], "answer": "the fourth quarter", "label": "MUL"}
+{"question": "A:We need to take the accounts system offline to carry out the upgrade . But don't worry , it won't cause too much inconvenience . We're going to do it over the weekend .", "choices": ["today 2:00 PM", "6 pm on Saturday", "Monday 12:00 AM "], "answer": "6 pm on Saturday", "label": "MUL"}
+{"question": "A:Well , we've been waiting for our luggage for <MASK> .", "choices": ["about six minutes", "about eleven hours", "about one hour"], "answer": "about one hour", "label": "MUL"}
+{"question": "A:Your resume says you have had one years experience working in a foreign representative office in Shanghai , may I ask why you quit ?", "choices": ["one day ago", "one decade ago", "two years ago"], "answer": "two years ago", "label": "MUL"}
+{"question": "A:Mr.Wang , we haven't discussed the mode of payment .", "choices": ["3 days", "2 years", "60 years"], "answer": "2 years", "label": "MUL"}
+{"question": "A:Do you surf online regularly , Joe ?", "choices": ["four seconds", "four hours", "twenty three hours"], "answer": "four hours", "label": "MUL"}
+{"question": "A:Kate , will you please make ten copies of this report ?", "choices": ["ten years", "one day", "three years"], "answer": "three years", "label": "MUL"}
+{"question": "A:What do you know about our company ?", "choices": ["a month ago ", "five years ago", "three days ago "], "answer": "five years ago", "label": "MUL"}
+{"question": "A:Hi , Jenny . Are you going to school now ?", "choices": ["2 o'clock ", "9 in the morning", "next month "], "answer": "9 in the morning", "label": "MUL"}
+{"question": "A:I'm glad we came here . This is really delicious !", "choices": ["two days", "two minutes", "three weeks"], "answer": "three weeks", "label": "MUL"}
+{"question": "A:Peter , it's time to go home now ! Hurry up !", "choices": ["a quarter to twelve", "Four", "Two "], "answer": "a quarter to twelve", "label": "MUL"}
+{"question": "A:Good morning , Miss Monica . Nice to meet you again !", "choices": ["9 AM to 5 PM", "4 PM to 4 AM", "1 AM to 4 AM"], "answer": "9 AM to 5 PM", "label": "MUL"}
+{"question": "A:So that concludes the introduction . Now let's move to the first part of my talk , which is <MASK> fiscal year marketing plan . So first , right off the bat , When looking at the marketing plan , tell me some of the goals that we had set this year to begin with ...", "choices": ["about 1999", "about 2005", "about 2006"], "answer": "about 2006", "label": "MUL"}
+{"question": "A:Wow , you ' re up early today ! What ' s for breakfast ?", "choices": ["twenty years", "sixty years ", "one second"], "answer": "twenty years", "label": "MUL"}
+{"question": "A:When can I have your firm C . I . F . prices , that is to say , the final offer , Mr . London ?", "choices": ["tomorrow morning ", "3 days", "10 months "], "answer": "3 days", "label": "MUL"}
+{"question": "A:Good morning , sir . Can I see your boarding pass , please ?", "choices": ["about two seconds ", "about 11 hours ", "about thirty minutes"], "answer": "about thirty minutes", "label": "MUL"}
+{"question": "A:I need to get some business cards printed up .", "choices": ["one minute", "three days", "seven months"], "answer": "three days", "label": "MUL"}
+{"question": "A:Good morning . Can I help you ?", "choices": ["January 1 ", "August 2", "December 15"], "answer": "August 2", "label": "MUL"}
+{"question": "A:I need a haircut .", "choices": ["this morning", "eight weeks ago", "one year ago"], "answer": "eight weeks ago", "label": "MUL"}
+{"question": "A:Housekeeping , may I come in ?", "choices": ["10 seconds later ", "fifteen minutes later", "12 hours later "], "answer": "fifteen minutes later", "label": "MUL"}
+{"question": "A:You won ' t believe who ' s been elected to do overtime on the Baker account ! Me ! I ' Ve already logged in <MASK> of overtime !", "choices": ["20 minutes", "20 days", "20 hours"], "answer": "20 hours", "label": "MUL"}
+{"question": "A:Excuse me , Sir , May I have the time , please ?", "choices": ["1 second", "three forty minutes", "five minutes"], "answer": "five minutes", "label": "MUL"}
+{"question": "A:It's going to strike 12 o'clock . Let's get the firecrackers ready , Rose .", "choices": ["Five minutes", "ten days", "Two hours"], "answer": "ten days", "label": "MUL"}
+{"question": "A:Joy Chain elementary school , please .", "choices": ["1 hour", "14 Hours", "Two minutes"], "answer": "1 hour", "label": "MUL"}
+{"question": "A:Do you have a boyfriend ?", "choices": ["3 weeks ago", "one hour ago ", "2 years ago "], "answer": "3 weeks ago", "label": "MUL"}
+{"question": "A:good morning . I understand that you ' Ve got a problem with your washing machine . I ' m from the repair company .", "choices": ["about ten days ago", "a few minutes", "About two years ago"], "answer": "about ten days ago", "label": "MUL"}
+{"question": "A:Welcome to NO Bank . It's Mr Zu , isn't it ?", "choices": ["8 months", "5 minutes", "2 weeks"], "answer": "2 weeks", "label": "MUL"}
+{"question": "A:Hi , George . I'm going to have a job interview next week . Could you give me some advice ?", "choices": ["30 to 45 minutes", "2 hours", "ten minutes"], "answer": "ten minutes", "label": "MUL"}
+{"question": "A:Good morning , Miss Cai . Congratulations ! You ' Ve passed the interview .", "choices": ["three months", "one-day", "six months "], "answer": "three months", "label": "MUL"}
+{"question": "A:Let's meet tonight at the Thai restaurant at about 5 .", "choices": ["about 2 seconds", "about 20 minutes", "about 5 hours"], "answer": "about 20 minutes", "label": "MUL"}
+{"question": "A:Let's see if we can reach some sort of agreement over your curfew .", "choices": ["ten in the morning", "three in the morning", "two in the afternoon"], "answer": "three in the morning", "label": "MUL"}
+{"question": "A:How's Jimmy today ?", "choices": ["another two days", "another two years", "another two minutes"], "answer": "another two days", "label": "MUL"}
+{"question": "A:Can you tell me a little bit about yourself ?", "choices": ["five months ", "12 days ", "10 years"], "answer": "10 years", "label": "MUL"}
+{"question": "A:If we employ you , what starting salary would you expect ?", "choices": ["a year", "3 minutes", "one week"], "answer": "one week", "label": "MUL"}
+{"question": "A:Let me get the keys and we ' ll go to look at it .", "choices": ["Six months", "two months", "Two days"], "answer": "two months", "label": "MUL"}
+{"question": "A:Oh Gush ! The first day of my career is over . I can not breathe now after dealing with so many documents . But I heard the notice that our company will hold <MASK> staff training .", "choices": ["one-day", "three-year", "two-week"], "answer": "two-week", "label": "MUL"}
+{"question": "A:Right Rebecca . Now I see that after graduating from University your first job was ...", "choices": ["two years", "06 hours ", "20 days "], "answer": "two years", "label": "MUL"}
+{"question": "A:Listen , you can not afford another day off . You ' Ve called in sick five times in <MASK> .", "choices": ["the last fifteen weeks", "the last five days", "the last three weeks"], "answer": "the last three weeks", "label": "MUL"}
+{"question": "A:Excuse me . Would you please make a suit with this material ?", "choices": ["Two hours", "ten days", "One month"], "answer": "ten days", "label": "MUL"}
+{"question": "A:Well , your qualifications for the job are excellent . And is there anything you'd like to ask about the job ?", "choices": ["5 minutes", "2 days", "30 days"], "answer": "2 days", "label": "MUL"}
+{"question": "A:Mr . McKenna , do you have a second ? I need to talk to you about something .", "choices": ["at least a year", "at least two months", "at least one second"], "answer": "at least two months", "label": "MUL"}
+{"question": "A:Here we are on the train .", "choices": ["5:00 AM in the morning ", "6 o'clock in the afternoon", "11:00 PM in the night "], "answer": "6 o'clock in the afternoon", "label": "MUL"}
+{"question": "A:Is there anything I can do for you , Mr . King ?", "choices": ["six o'clock", "nine o'clock", "one o'clock"], "answer": "six o'clock", "label": "MUL"}
+{"question": "A:I ' m so sorry to call you on such short notice , but something ' s come up .", "choices": ["two days from tomorrow ", "two weeks from tomorrow", "four months from tomorrow "], "answer": "two weeks from tomorrow", "label": "MUL"}
+{"question": "A:Excuse me . Do you study Chinese at the university here ?", "choices": ["45 minutes", "90 minutes", "10 seconds"], "answer": "45 minutes", "label": "MUL"}
+{"question": "A:good morning . What seems to be the problem ?", "choices": ["three days", "2 weeks", "10 days"], "answer": "three days", "label": "MUL"}
+{"question": "A:When do you celebrate Thanksgiving ?", "choices": ["the first Monday of December ", "the second Thursday of March ", "the fourth Thursday of November"], "answer": "the fourth Thursday of November", "label": "MUL"}
+{"question": "A:Hi , I need a hotel room .", "choices": ["Thursday night , October 7", "Friday afternoon , April 14", "Monday morning , January 17"], "answer": "Friday afternoon , April 14", "label": "MUL"}
+{"question": "A:Honey , I have something important to say .", "choices": ["July 20", "August 14", "June 20"], "answer": "June 20", "label": "MUL"}
+{"question": "A:What ' s “ pi ” ?", "choices": ["one day", "today", "tenth day"], "answer": "one day", "label": "MUL"}
+{"question": "A:Doctor , I feel much better now . Will I be albe to go home some time this week ?", "choices": ["a day", "4 to 6 weeks", "a week"], "answer": "4 to 6 weeks", "label": "MUL"}
+{"question": "A:Hello . I would like to buy some business cards .", "choices": ["one week", "3 hours ", "2000 seconds "], "answer": "one week", "label": "MUL"}
+{"question": "A:What are your weekend arrangements ?", "choices": ["a minute", "two hours", "a day"], "answer": "two hours", "label": "MUL"}
+{"question": "A:Do you have a copy of today ' s newspaper ? I want to check the results from the world athletics championship .", "choices": ["2 seconds", "11 hours", "15 minutes"], "answer": "2 seconds", "label": "MUL"}
+{"question": "A:You won ' t believe who ' s been elected to do overtime on the Baker account ! Me ! I ' Ve already logged in <MASK> of overtime !", "choices": ["20 hours", "five days", "two minutes"], "answer": "20 hours", "label": "MUL"}
+{"question": "A:Hi , Dan . What's new ?", "choices": ["one month", "three years", "two days"], "answer": "two days", "label": "MUL"}
+{"question": "A:not a single email until now ? it's already <MASK> . I can't believe it !", "choices": ["twelve o'clock", "5:00 AM", "11:00 PM"], "answer": "twelve o'clock", "label": "MUL"}
+{"question": "A:Annie , what is troubling you ? You look unhappy .", "choices": ["eight seconds ", "seven weeks", "seven hours "], "answer": "seven weeks", "label": "MUL"}
+{"question": "A:have you finished going through the contract ?", "choices": ["up to 10 days", "up to 10 months", "up to 1 day"], "answer": "up to 10 days", "label": "MUL"}
+{"question": "A:Are your ready to go to the supermarket ?", "choices": ["Five hours", "ten minutes", "Two seconds"], "answer": "ten minutes", "label": "MUL"}
+{"question": "A:I'm too tired now . I've already worked for <MASK> overtime !", "choices": ["2 months", "12 hours", "2 seconds"], "answer": "12 hours", "label": "MUL"}
+{"question": "A:I would like to place an order .", "choices": ["November , 2010 ", "April , 2008", "July , 2006"], "answer": "July , 2006", "label": "MUL"}
+{"question": "A:How are you wedding plans going ?", "choices": ["Three days", "three weeks", "Five hours"], "answer": "three weeks", "label": "MUL"}
+{"question": "A:Taxi ! Taxi !", "choices": ["about 3 hours", "about 1 second", "about 20 minutes"], "answer": "about 20 minutes", "label": "MUL"}
+{"question": "A:Hello ?", "choices": ["Five AM", "one PM", "Two AM"], "answer": "one PM", "label": "MUL"}
+{"question": "A:I opened my mail , found this eviction notice , and don ' t know what to do with it .", "choices": ["30 - day", "Five months", "2 - day"], "answer": "30 - day", "label": "MUL"}
+{"question": "A:Hello ! This is Ruby speaking from G . O . T . International Travel Agency . What can I do for you ?", "choices": ["November 13", "April 14", "April 13"], "answer": "April 13", "label": "MUL"}
+{"question": "A:good afternoon , madam . How can I help you ?", "choices": ["one decade", "one year", "one day"], "answer": "one year", "label": "MUL"}
+{"question": "A:Good morning , Mr Croft .", "choices": ["10 am on Monday , April 24th", "2:00 AM, Wednesday, January. ", "11:00 PM, Friday, December. "], "answer": "10 am on Monday , April 24th", "label": "MUL"}
+{"question": "A:Excuse me.May I see the manager of your store ?", "choices": ["five pm", "three pm ", "11:00 am "], "answer": "five pm", "label": "MUL"}
+{"question": "A:What's the matter , Lisa ? You don't look too good .", "choices": ["about two years", "about two months", "about two minutes"], "answer": "about two months", "label": "MUL"}
+{"question": "A:How is everything going with your girlfriend ?", "choices": ["four days", "one year", "three months"], "answer": "one year", "label": "MUL"}
+{"question": "A:Northward Airlines . Can I help you ?", "choices": ["11:00 AM", "3:00 AM", "4 o'clock"], "answer": "4 o'clock", "label": "MUL"}
+{"question": "A:I would love to rent this apartment .", "choices": ["10 days ", "one month", "50 minutes "], "answer": "one month", "label": "MUL"}
+{"question": "A:Good afternoon .", "choices": ["half past nine", "half past twelve", "half past three"], "answer": "half past twelve", "label": "MUL"}
+{"question": "A:How are you doing ? Pretty good , I imagine ?", "choices": ["two months", "five years ", "six days "], "answer": "two months", "label": "MUL"}
+{"question": "A:What can I do for you today ?", "choices": ["two weeks", "today ", "6 months "], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Good afternoon ! Trans Pacific Airline . How can I help you ?", "choices": ["December 2", "July 19", "June 8 "], "answer": "July 19", "label": "MUL"}
+{"question": "A:What can I offer you here ?", "choices": ["one hour", "15 days ", "more than 20 years"], "answer": "more than 20 years", "label": "MUL"}
+{"question": "A:how was your day ?", "choices": ["About two seconds", "about 5 minutes", "About four hours"], "answer": "about 5 minutes", "label": "MUL"}
+{"question": "A:Hello , this is Francis .", "choices": ["from 4 PM to 7 PM", "from 1 PM to 4 PM", "from 3 AM to 4 AM"], "answer": "from 1 PM to 4 PM", "label": "MUL"}
+{"question": "A:Hello ! This is Ruby speaking from G . O . T . International Travel Agency . What can I do for you ?", "choices": ["April 13", "April 14", "June 5"], "answer": "April 13", "label": "MUL"}
+{"question": "A:Alright everyone settle down . Let ' s get started.As you know , an important aspect of becoming a good citizen is understanding the genesis of our legal system . It is not enough to simply memorize our laws , it is necessary that we comprehend why and how they were formed . This brings me to our topic for today . Does anyone know what we celebrate on May first ?", "choices": ["December 1540", "April 1886", "January 1050"], "answer": "April 1886", "label": "MUL"}
+{"question": "A:How much do you have budgeted for our trip to Las Angeles ?", "choices": ["five days", "25 days", "8 hours"], "answer": "five days", "label": "MUL"}
+{"question": "A:Good morning , what can I do for you ?", "choices": ["one-year", "7-day", "45-year"], "answer": "one-year", "label": "MUL"}
+{"question": "A:I had a terrible journey back from Bangkok last week .", "choices": ["one day", "three hours", "four minutes"], "answer": "three hours", "label": "MUL"}
+{"question": "A:Good morning , Japan Airline domestic reservations . Can I help you ?", "choices": ["every eleven hours", "every two hours", "every six minutes"], "answer": "every two hours", "label": "MUL"}
+{"question": "A:Have you anything to declare ?", "choices": ["Nearly two months", "Nearly five days", "Nearly ten years"], "answer": "Nearly ten years", "label": "MUL"}
+{"question": "A:Oh , this is Monica", "choices": ["seven years", "five days", "one month"], "answer": "one month", "label": "MUL"}
+{"question": "A:New York Airport.May I help you ?", "choices": ["two hours later", "two minutes later", "one hour later"], "answer": "two hours later", "label": "MUL"}
+{"question": "A:So , Fred , what are your plans for after graduation ?", "choices": ["twenty years", "seven years", "one day"], "answer": "seven years", "label": "MUL"}
+{"question": "A:Hello !", "choices": ["two weeks", "7 Hours", "Five months"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Hi , Natasha , how's life ?", "choices": ["tenth day", "today", "one day"], "answer": "one day", "label": "MUL"}
+{"question": "A:Spring Festival is the most important festival in China , isn't it ?", "choices": ["About two years", "About one month", "about 15 days"], "answer": "about 15 days", "label": "MUL"}
+{"question": "A:Good afternoon ! Where to ?", "choices": ["twenty hours", "Eight seconds", "20 minutes"], "answer": "20 minutes", "label": "MUL"}
+{"question": "A:Hello , Madam . What can I do for you today ?", "choices": ["two years", "three days", "2 decades"], "answer": "two years", "label": "MUL"}
+{"question": "A:Dad , I want to learn how to drive this summer vacation .", "choices": ["one day", "three years", "three months"], "answer": "three months", "label": "MUL"}
+{"question": "A:Darling , I have news for you . Bobby and his wife , Evelyn , are going to have a baby soon .", "choices": ["one-year", "one-day", "three-month"], "answer": "three-month", "label": "MUL"}
+{"question": "A:Hello . It's good to see you again , Ms Harrow , sending more money to your grandson today ?", "choices": ["90 years", "2 years", "5 days"], "answer": "2 years", "label": "MUL"}
+{"question": "A:Good morning . Ru Via Hotel , Room Reservation . Can I help you ?", "choices": ["the 5 months", "the 10 minutes", "the three days"], "answer": "the three days", "label": "MUL"}
+{"question": "A:Hello , IBA Bank , how can I help you ?", "choices": ["5 minutes", "7 days", "90 days"], "answer": "7 days", "label": "MUL"}
+{"question": "A:Mrs . Miller , you are an old friend of ours . In order to encourage future business and as a gesture of friendship , we are prepared to cut our price by 5 % . Will that satisfy you ?", "choices": ["5 to 6 months", "15 to 30 days", "2 to 3 days"], "answer": "15 to 30 days", "label": "MUL"}
+{"question": "A:Thank you for your interest in this job . You'll be hearing from us . Send the next applicant in on your way out , please .", "choices": ["six in the afternoon", "six in the morning", "one in the afternoon"], "answer": "six in the afternoon", "label": "MUL"}
+{"question": "A:Reservation , can I help you ?", "choices": ["2 days", "one year ", "4 minutes "], "answer": "2 days", "label": "MUL"}
+{"question": "A:Hi , Natasha , how's life ?", "choices": ["one day", "10 years", "80 years"], "answer": "10 years", "label": "MUL"}
+{"question": "A:All right . I want to bring everybody back on this subject . When can we start working on this ?", "choices": ["one year", "2 days", "2 months"], "answer": "one year", "label": "MUL"}
+{"question": "A:our company is going to do some cutbacks soon .", "choices": ["one year", "three months", "two days"], "answer": "three months", "label": "MUL"}
+{"question": "A:We're now staying at the Holiday Inn . How do we get to the airport ?", "choices": ["about one minute", "about one hour", "about 20 hour"], "answer": "about one hour", "label": "MUL"}
+{"question": "A:you look better today . How did your test go ?", "choices": ["5 hours ", "12 days", "two months"], "answer": "two months", "label": "MUL"}
+{"question": "A:Excuse me . Does this hotel have a fitness facility ?", "choices": ["5 minutes", "twenty-four hours ", "seven days"], "answer": "seven days", "label": "MUL"}
+{"question": "A:I didn ' t receive an unemployment check this week and need to know why .", "choices": ["every two weeks", "every year", "every day"], "answer": "every two weeks", "label": "MUL"}
+{"question": "A:So how did you meet Bill ?", "choices": ["8:00 PM", "12:00 AM ", "1:00 PM "], "answer": "8:00 PM", "label": "MUL"}
+{"question": "A:Today , we have invited a special guest , Prof . Yang . He will give us some advice on the legal aspects of international business . Your international legal advice is important to our business well being . Please give us some counsels on such issues as which laws govern the contract , what recourse is available for default or breach of contract by our clients or what to do if a dispute arises .", "choices": ["the following thirty to fifty years", "the following two to three years", "the following ten to twenty years"], "answer": "the following two to three years", "label": "MUL"}
+{"question": "A:hi , Natasha , how's life ?", "choices": ["80 years", "10 years", "9 months"], "answer": "10 years", "label": "MUL"}
+{"question": "A:The mailboxes are right down there , and the laundry room with coin-operated washers and dryers is over there .", "choices": ["Two weeks", "nine-month", "Five years"], "answer": "nine-month", "label": "MUL"}
+{"question": "A:Excuse me , I ' Ve been waiting my main dish for quite a time .", "choices": ["another half an hour", "another minute", "another 10 to 15 minutes"], "answer": "another 10 to 15 minutes", "label": "MUL"}
+{"question": "A:There are many new kinds of newspapers . I find it hard to choose among them . Which is the most popular paper circulating in our city ?", "choices": ["Three months", "Five weeks", "two years"], "answer": "two years", "label": "MUL"}
+{"question": "A:Hi , Mr . Smith . I'm Doctor Hawkins . Why are you here today ?", "choices": ["5 years", "20 years ", "2 seconds "], "answer": "5 years", "label": "MUL"}
+{"question": "A:After you", "choices": ["two days ago", "10 minutes ago ", "15 months ago"], "answer": "two days ago", "label": "MUL"}
+{"question": "A:These days my son has turned his computer into an electronic playground . He plays football , rides horses , drives racing cars , and does a whole bunch of other things on the computer . The funny thing about it is that , no matter what he plays , he always wins first place . I wonder if he'll be able to cope with a defeat in real life .", "choices": ["at least two hours", "at least two minutes", "at least twenty hours"], "answer": "at least two hours", "label": "MUL"}
+{"question": "A:Hello Mr . Jones , please have a seat . Thank you for coming in today . I have read your resume . You completed University in England ?", "choices": ["five decades", "ten years", "40000 seconds"], "answer": "ten years", "label": "MUL"}
+{"question": "A:Good morning . I understand that you ' Ve got a problem with your washing machine . I ' m from the repair company .", "choices": ["About one hour ago", "About ten days ago", "About one year ago"], "answer": "About ten days ago", "label": "MUL"}
+{"question": "A:You like Titanic ? That movie is so cheesy .", "choices": ["one week", "one hour ", "two years "], "answer": "one week", "label": "MUL"}
+{"question": "A:Excuse me , is this the right counter for express mail ?", "choices": ["three months ", "three days", "four seconds "], "answer": "three days", "label": "MUL"}
+{"question": "A:Is there anything I can do for you ?", "choices": ["15 seconds ", "3 days ", "2 - hour"], "answer": "2 - hour", "label": "MUL"}
+{"question": "A:Hi , Mary . I haven't seen you in ages ! I heard that you and Daniel are getting married on August 8th , the opening day of the 2008 Olympic Games . Is it true ?", "choices": ["2010", "2012", "2008"], "answer": "2008", "label": "MUL"}
+{"question": "A:Alright everyone settle down . Let ' s get started.As you know , an important aspect of becoming a good citizen is understanding the genesis of our legal system . It is not enough to simply memorize our laws , it is necessary that we comprehend why and how they were formed . This brings me to our topic for today . Does anyone know what we celebrate on May first ?", "choices": ["and twenty hours", "and fourteen hours", "and eight hours"], "answer": "and fourteen hours", "label": "MUL"}
+{"question": "A:This is today ' s schedule . At 8 thirty AM , conference with the department managers . At 9 o ' clock , live for the workshop where you ' ll award prizes to the staff for preventatives .", "choices": ["2 PM ", "12 PM ", "10:00 AM"], "answer": "10:00 AM", "label": "MUL"}
+{"question": "A:Hey Lucas , how was your trip to Paris ?", "choices": ["the third day", "the first year", "the fourth day"], "answer": "the fourth day", "label": "MUL"}
+{"question": "A:Good morning , Madam . This is room service , may I help you ?", "choices": ["five days", "15 weeks ", "a minute "], "answer": "five days", "label": "MUL"}
+{"question": "A:Beijing Hotel . May I help you ?", "choices": ["July fifth", "August eighth", "October tenth"], "answer": "August eighth", "label": "MUL"}
+{"question": "A:hi , Natasha , how's life ?", "choices": ["one day old", "10 decades old", "12 years old"], "answer": "12 years old", "label": "MUL"}
+{"question": "A:The mailboxes are right down there , and the laundry room with coin-operated washers and dryers is over there .", "choices": ["one-year", "Four weeks", "Nine days"], "answer": "one-year", "label": "MUL"}
+{"question": "A:Excuse me . How long has it been since the business was founded ?", "choices": ["2012", "2008", "1998"], "answer": "2008", "label": "MUL"}
+{"question": "A:Hello miss . Can I see your ticket number ?", "choices": ["two weeks", "up to 90 days", "Five years"], "answer": "up to 90 days", "label": "MUL"}
+{"question": "A:Hi , Doris . I hear you are going to the United States next week .", "choices": ["5 years", "20 decades", "a week"], "answer": "5 years", "label": "MUL"}
+{"question": "A:Would you mind answering a few personal questions ?", "choices": ["Two months ago", "Fifteen years ago", "five years ago"], "answer": "five years ago", "label": "MUL"}
+{"question": "A:Can you be serious for a moment , we've been dating for <MASK> now , I really like you . I'd like to take a relationship to the next level .", "choices": ["6 decades", "6 days", "6 months"], "answer": "6 months", "label": "MUL"}
+{"question": "A:are you working overtime again ? Over the last two weeks , you have worked overtime every day without a break ! Your company is draining the life out of you !", "choices": ["10:00 AM", "9:00 PM", "2:00 PM "], "answer": "9:00 PM", "label": "MUL"}
+{"question": "A:Hey , Daniel , how's it going ?", "choices": ["from 1325 to 1349", "from 1852 to 1885", "from 1405 to 1433"], "answer": "from 1405 to 1433", "label": "MUL"}
+{"question": "A:They don't really think you took it , do they ?", "choices": ["ten decades", "three days", "thirty years"], "answer": "thirty years", "label": "MUL"}
+{"question": "A:Hi , excuse me . I am sorry to bug you , but do you know where the Royal Hotel is ?", "choices": ["30 - minute", "100 - minute", "10 - minute"], "answer": "30 - minute", "label": "MUL"}
+{"question": "A:How come it is slow as a snail today ?", "choices": ["one minute", "a second", "one hour"], "answer": "one minute", "label": "MUL"}
+{"question": "A:Hello ! This is Ruby speaking from G . O . T . International Travel Agency . What can I do for you ?", "choices": ["two-hours", "three-decades", "one-year"], "answer": "one-year", "label": "MUL"}
+{"question": "A:Ok , honey , time to take down the Christmas tree .", "choices": ["two minutes ago", "five years ago", "two weeks ago"], "answer": "two weeks ago", "label": "MUL"}
+{"question": "A:Steven , I need badly your help .", "choices": ["Two days", "Five years", "two months"], "answer": "two months", "label": "MUL"}
+{"question": "A:( Having lunch with Joseph ) Have you ever been invited to a Chinese feast ?", "choices": ["two years", "couple of weeks ", "15 minutes "], "answer": "two years", "label": "MUL"}
+{"question": "A:Hello . My name ' s Linda Brown . What can I do for you today ?", "choices": ["5 minutes", "40 minutes ", "35 seconds "], "answer": "5 minutes", "label": "MUL"}
+{"question": "A:When are we leaving for our field trip ?", "choices": ["6 days later", "3 hours later", "8 months later"], "answer": "6 days later", "label": "MUL"}
+{"question": "A:Excuse me , is this the Guyon Travel Agency ?", "choices": ["about two days", "15 days ", "300 seconds "], "answer": "about two days", "label": "MUL"}
+{"question": "A:Excuse me , can you tell me which is Bob Rice's office ?", "choices": ["ten o'clock", "8:00 PM ", "1:00 PM "], "answer": "ten o'clock", "label": "MUL"}
+{"question": "A:Do you think chinese families have changed much in the last 50 years ?", "choices": ["the last 5 decades", "25 years", "50 days "], "answer": "the last 5 decades", "label": "MUL"}
+{"question": "A:Did you watch TV last night , Rose ?", "choices": ["three weeks later", "two seconds ", "6 months "], "answer": "three weeks later", "label": "MUL"}
+{"question": "A:Are you alright , Ethan ? You don't seem to be as cheerful as you normally are .", "choices": ["two seconds", "nine hours", "two hours"], "answer": "two hours", "label": "MUL"}
+{"question": "A:I'm glad we came here . This is really delicious !", "choices": ["two minutes", "two hours", "three days"], "answer": "two hours", "label": "MUL"}
+{"question": "A:Hello ! Is your taxi engaged ?", "choices": ["Five hours", "Two minutes ", "twenty minutes"], "answer": "twenty minutes", "label": "MUL"}
+{"question": "A:Mmm ... it is delicious .", "choices": ["360 minutes ", "a minute ", "forty-five minutes"], "answer": "forty-five minutes", "label": "MUL"}
+{"question": "A:Hello Gina ! We've spoken so many times on the phone but's it's so good to finally meet you in person !", "choices": ["two hour", "two minute", "one day"], "answer": "two hour", "label": "MUL"}
+{"question": "A:Judy , your husband has a really nice car .", "choices": ["about a year", "about ten years", "about 20 minutes"], "answer": "about ten years", "label": "MUL"}
+{"question": "A:What are your working hours ?", "choices": ["ten to six in the morning", "two to six in the afternoon", "eight to twelve in the evening"], "answer": "two to six in the afternoon", "label": "MUL"}
+{"question": "A:Our productivity has been down for <MASK> now . I'm seriously considering pulling in an outside consultant to diagnose the cause of our problematic areas . I think we'd all benefit from an outsider's perspective . Sometimes we're just too closed to the problems to see the forest for the trees .", "choices": ["more than 20 years", "more than five minutes", "more than six months"], "answer": "more than six months", "label": "MUL"}
+{"question": "A:How are your stocks doing , Jim ?", "choices": ["the last two years", "The last five seconds", "The last seven years"], "answer": "the last two years", "label": "MUL"}
+{"question": "A:Taxi .", "choices": ["15 mins", "15 Hours", "12 seconds"], "answer": "15 mins", "label": "MUL"}
+{"question": "A:I'll be checking out of the hotel in <MASK> .", "choices": ["about 30 minutes", "about 30 hour", "about 30 seconds"], "answer": "about 30 minutes", "label": "MUL"}
+{"question": "A:Hello , I need to register for a class .", "choices": ["five to nine on Friday", "ten to twelve on Monday", "two to four on Thursday"], "answer": "ten to twelve on Monday", "label": "MUL"}
+{"question": "A:Good afternoon . Which service do you require .", "choices": ["30 seconds ago ", "3 months ago ", "12 days ago"], "answer": "12 days ago", "label": "MUL"}
+{"question": "A:Good morning , ladies and gentlemen , we are happy you have all come out for our training workshop . Today we have a great line-up of speakers to talk to you . First on our program is a well-renown expert in the field of international economic development , Harvard's own Dr . James Smith . Dr . Smith has been involved in economic research for over twenty years , and has taught at Harvard since 1995 . And now , without further adieu , we'd like to welcome Mr . James Smith .", "choices": ["twelve-minute", "twenty-minute", "three-minute"], "answer": "twenty-minute", "label": "MUL"}
+{"question": "A:Which team do you think will emerge with the last laugh in this World Cup ?", "choices": ["the final 62 hours", "the final eight seconds", "the final three minutes"], "answer": "the final three minutes", "label": "MUL"}
+{"question": "A:When were you Bron may I ask ?", "choices": ["27th day of the fifth month", "20th day of the tenth month", "27th day of the fourth month"], "answer": "27th day of the fourth month", "label": "MUL"}
+{"question": "A:Good afternoon , is there a vacant room here ?", "choices": ["5 hours", "two weeks", "50 weeks"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Sir , I want to ask for a leave for five days . Here is the request form .", "choices": ["five days", "five months", "1 year"], "answer": "five days", "label": "MUL"}
+{"question": "A:Are you still working day and night ?", "choices": ["nine hours", "twenty three hours", "ten minutes"], "answer": "nine hours", "label": "MUL"}
+{"question": "A:I know that you are interested in our washers .", "choices": ["120 months ", "three years ", "six months"], "answer": "six months", "label": "MUL"}
+{"question": "A:have you ever been invited to a Chinese feast ?", "choices": ["2 weeks ", "two years", "12 minutes "], "answer": "two years", "label": "MUL"}
+{"question": "A:Hi , Anna . I haven ' t seen you for ages . Where have you been ?", "choices": ["1978 seconds ", "more than ten years ", "3 days"], "answer": "3 days", "label": "MUL"}
+{"question": "A:What's for dinner ?", "choices": ["fifteen minutes", "12-seconds ", "an hour "], "answer": "fifteen minutes", "label": "MUL"}
+{"question": "A:See ? That wasn't so bad .", "choices": ["ten years", "four seconds", "three days"], "answer": "three days", "label": "MUL"}
+{"question": "A:Hi , Anna . I haven ' t seen you for ages . Where have you been ?", "choices": ["more than 5 days", "more than 3 months", "more than ten years"], "answer": "more than ten years", "label": "MUL"}
+{"question": "A:Why are you leaving your present job ?", "choices": ["four years", "One month", "eight years"], "answer": "four years", "label": "MUL"}
+{"question": "A:I think you are an excellent person . Honestly speaking , you are very suitable for this job", "choices": ["two months later ", "three seconds ", "one week"], "answer": "one week", "label": "MUL"}
+{"question": "A:How come it is slow as a snail today ?", "choices": ["Two days", "one minute", "Four hours"], "answer": "one minute", "label": "MUL"}
+{"question": "A:Is everything alright ?", "choices": ["three minutes ago", "30 hours ago", "3 hours ago"], "answer": "3 hours ago", "label": "MUL"}
+{"question": "A:Excuse me , driver , you have kept us waiting for <MASK> . Can't we start the tour right now ?", "choices": ["3 hours", "5 seconds", "15 minutes"], "answer": "15 minutes", "label": "MUL"}
+{"question": "A:Hi , John .", "choices": ["one year", "Six months", "Ten days"], "answer": "one year", "label": "MUL"}
+{"question": "A:I'm exhausted . My new exercise is so hard .", "choices": ["one hour", "Two days", "One second"], "answer": "one hour", "label": "MUL"}
+{"question": "A:Can you book me a double room for February 22 ?", "choices": ["January 1", "February 22", "June 23"], "answer": "February 22", "label": "MUL"}
+{"question": "A:I think you are an excellent person . Honestly speaking , you are very suitable for this job", "choices": ["two weeks", "two years", "one day"], "answer": "two weeks", "label": "MUL"}
+{"question": "A:Hello ! This is Ruby speaking from G . O . T . International Travel Agency . What can I do for you ?", "choices": ["July 13", "April 14", "April 13"], "answer": "April 13", "label": "MUL"}
+{"question": "A:Mr . Wang , I've had scheduled for your <MASK> stay in Shanghai . You can make some changes if it does not suit you .", "choices": ["two days", "two years", "two minutes"], "answer": "two days", "label": "MUL"}
+{"question": "A:Hello Mr . Jones , please have a seat . Thank you for coming in today . I have read your resume . You completed University in England ?", "choices": ["40 years ", "ten days ", "five years"], "answer": "five years", "label": "MUL"}
+{"question": "A:This is our first day of class.It ' s better for us to introduce ourselves to each other . Who would like to begin first ? Any volunteers ?", "choices": ["a day", "one year", "twenty years"], "answer": "one year", "label": "MUL"}
+{"question": "A:Miss Fallen , can you tell me why you want to get a visa to the States ?", "choices": ["three years", "one month", "3 days "], "answer": "three years", "label": "MUL"}
+{"question": "A:you don't look too well . Maybe you should take the day off from work .", "choices": ["couple of weeks ", "12 - hour", "5 minute "], "answer": "12 - hour", "label": "MUL"}
+{"question": "A:When were you born may I ask ?", "choices": ["5th November 2017", "20th May 1963", "27th March 1996"], "answer": "20th May 1963", "label": "MUL"}
+{"question": "A:Have you ever been involved in the auditing work ?", "choices": ["3 years", "3 days", "3 decades"], "answer": "3 years", "label": "MUL"}
+{"question": "A:Hello . This is the Stewart Resident .", "choices": ["25 hours ", "17 seconds ", "500 minutes"], "answer": "500 minutes", "label": "MUL"}
+{"question": "A:Are you excited about your trip next month ?", "choices": ["Two hours", "Three weeks", "more than 5 seconds"], "answer": "more than 5 seconds", "label": "MUL"}
+{"question": "A:So that concludes the introduction . Now let's move to the first part of my talk , which is about 2006 fiscal year marketing plan . So first , right off the bat , When looking at the marketing plan , tell me some of the goals that we had set this year to begin with ...", "choices": ["2020", "2005", "2006"], "answer": "2005", "label": "MUL"}
+{"question": "A:Dad , what's the date ?", "choices": ["30 days ", "seven days", "eighteen hours "], "answer": "seven days", "label": "MUL"}
+{"question": "A:Can you ship this batch of cotton within five or <MASK> ?", "choices": ["six weeks", "two days", "eight months"], "answer": "six weeks", "label": "MUL"}
+{"question": "A:Can I help you ?", "choices": ["24 - hour", "2 - day", "7 - minute"], "answer": "24 - hour", "label": "MUL"}
+{"question": "A:Have you ever been involved in the auditing work ?", "choices": ["3 years ", "three months", "3 hours "], "answer": "three months", "label": "MUL"}
+{"question": "A:What's the date today Mr.Brown . I don't have a calendar .", "choices": ["Tuesday , 25th September , 2001", "Tuesday , 8th September , 2001", "Tuesday , 6th March , 2009"], "answer": "Tuesday , 25th September , 2001", "label": "MUL"}
+{"question": "A:Could you help me figure out why I am missing my unemployment check for this week ?", "choices": ["2 months ", "more than fourteen days", "five seconds late"], "answer": "more than fourteen days", "label": "MUL"}
+{"question": "A:Look , Forest Gump is on at six thirty .", "choices": ["2020", "1995", "1980"], "answer": "1995", "label": "MUL"}
+{"question": "A:Good morning . What seems to be the problem ?", "choices": ["three days", "Three months", "Two hours"], "answer": "three days", "label": "MUL"}
+{"question": "A:Good morning ! What can I do for you ?", "choices": ["Eight hundred and fifty seconds", "five-day", "Five hundred days"], "answer": "five-day", "label": "MUL"}
+{"question": "A:We agree to give you a break on the price , all together a discount of 6 % . Good news is , I talked to my boss , he confirmed that if you take care of the shipping costs , we'll throw in insurance .", "choices": ["30 day", "6 minute", "90 month"], "answer": "30 day", "label": "MUL"}
+{"question": "A:What's the matter , Lisa ? You don't look too good .", "choices": ["two years", "two decades", "two days"], "answer": "two years", "label": "MUL"}

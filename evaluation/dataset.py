@@ -51,13 +51,14 @@ class EvaluationDataset(torch.utils.data.Dataset, ABC):
         assert shots < self.__len__(), "number of shots should lower than size of your dataset"
         tmp_data = []
         for data in self.data:
+            tmp = deepcopy(data) # sample everytime so can't modify self.data
             examples = random.sample(self.data, self.config.shot)
             prompt = data[0]["text"]
             for example in examples:
                 prompt = example[0]["text"] + "\n" + example[0]["targets"][0] + "\n" + prompt
                 prompt = self.cut_exceed_length(prompt)
-            data[0]["text"] = prompt
-            tmp_data.append(data)
+            tmp[0]["text"] = prompt
+            tmp_data.append(tmp)
         self.data = tmp_data
             
     def process_single_file(self, path):

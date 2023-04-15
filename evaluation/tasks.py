@@ -92,29 +92,18 @@ class BaseTask(ABC):
                 with torch.no_grad():
                     for _, batch in tqdm(enumerate(dataloader)):
                         prediction.extend(self.predict_single_batch(batch))
+                
+                if self.save_prediction: # first save and evaluate 
+                    self.save_prediction_to_file(file, prediction, dataset.data)
 
                 '''  
                 prediction = []
                 with torch.no_grad():
                     prediction = self.predict_single_batch(dataset)
                 
-                result_dict = {}
-                for key, metric in self.metrics.items():
-                    metric_result = metric(prediction, dataset.data)
-                    if isinstance(metric_result,dict):
-                        for sub_key, sub_metric in metric_result.items():
-                            result_dict[sub_key] = sub_metric
-                    else:
-                        result_dict[key] = metric_result
-                result_dict_group[file] = (result_dict, len(dataset))
-                if  self.save_prediction:
-                    self.save_prediction_to_file(file, prediction, dataset.data)
-
-                self.report_single_metrics(file, result_dict)
-
-                
                 if self.save_prediction: # first save and evaluate 
                     self.save_prediction_to_file(file, prediction, dataset.data)
+
 
                 #prediction = gather_result(prediction, len(dataset), self.config.micro_batch_size)
                 #result_dict = {key: metric(prediction, dataset.data) for key, metric in self.metrics.items()}
@@ -218,7 +207,7 @@ class GenerationTask(BaseTask, ABC):
         return GenerationTaskDataset(join(self.config.path, relative_path), self.model, self.config)
 
     def save_prediction_to_file(self, file, prediction, data):
-        filename = os.path.join("outputs", self.config.name, f"{self.model_name}.{file}.predict.jsonl")
+        filename = os.path.join("outputs", self.config.name, self.model_name, "prediction", f"{self.model_name}.{file}.predict.jsonl")
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         with jsonlines.open(filename, "w") as file:
             for item, org_data in zip(prediction, data):
@@ -227,7 +216,7 @@ class GenerationTask(BaseTask, ABC):
                 file.write(output_data)
     
     def save_evaluation_to_file(self, file, res_dict):
-        filename = os.path.join("outputs", self.config.name, f"{self.model_name}.{file}.evaluate.json")
+        filename = os.path.join("outputs", self.config.name, self.model_name, "evaluation", f"{self.model_name}.{file}.evaluate.json")
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         with open(filename, "w", encoding="utf-8") as f:
             f.write(json.dumps(res_dict, indent=2))

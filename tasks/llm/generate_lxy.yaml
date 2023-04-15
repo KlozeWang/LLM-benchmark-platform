@@ -1,0 +1,21 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  quoref: "**/quoref.jsonl"
+  hotpot_qafullwiki: "**/hotpot_qafullwiki.jsonl"
+  feverv1.0: "**/feverv1.0.jsonl"
+  feverv2.0: "**/feverv2.0.jsonl"
+  swagregular: "**/swagregular.jsonl"
+  super_gluewic: "**/super_gluewic.jsonl"
+  super_gluewsc.fixed: "**/super_gluewsc.fixed.jsonl"
+  trec: "**/trec.jsonl"
+  wiki_qa: "**/wiki_qa.jsonl"
+  trivia_qaunfiltered: "**/trivia_qaunfiltered.jsonl"
+  math_qa: "**/math_qa.jsonl"
+  common_gen: "**/common_gen.jsonl"
+  hotpot_qadistractor: "**/hotpot_qadistractor.jsonl"
+  super_gluecopa: "**/super_gluecopa.jsonl"
+workers: 20
+shot: 5

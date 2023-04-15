@@ -17,4 +17,5 @@ EXP_NAME=${TIMESTAMP}
 mkdir -p logs
 
 run_cmd="python ${ARGS}"
+echo $run_cmd
 eval ${run_cmd} 2>&1 | tee logs/${EXP_NAME}.log

@@ -112,8 +112,12 @@ class PromptGenerate():
                         answer_list.append(item.get("choices")[answer_int])
                         answer_list.append(number_to_uppercase_word(answer_int))
                 return answer_list
-        else: 
+
+        else:
+            if isinstance(self.answer, str):
+                return [self.answer]
             return self.answer
+
 
     def get_choices(self, item):
         if self.prompt_label == "MUL" or self.prompt_label == "NLI":

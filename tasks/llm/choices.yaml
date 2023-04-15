@@ -1,0 +1,27 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  ARC-challenge: "**/ai2_arcARC-Challenge.jsonl"
+  ARC-easy: "**/ai2_arcARC-Easy.jsonl"
+  Commonsense_QA: "**/commonsense_qa.jsonl"
+  Cosmos_QA: "**/cosmos_qa.jsonl"
+  EMO: "**/emo.jsonl"
+  IMDB: "**/imdb.jsonl"
+  ANLI: "**/anli.jsonl"
+  MULTI_NLI: "**/multi_nli.jsonl"
+  OpenBookQA_add: "**/openbookqaadditional.jsonl"
+  OpenBookQA_main: "**/openbookqamain.jsonl"
+  Raceall: "**/raceall.jsonl"
+  Racehigh: "**/racehigh.jsonl"
+  Racemiddle: "**/racemiddle.jsonl"
+  SNLI: "**/snli.jsonl"
+  super_glueaxb: "**/super_glueaxb.jsonl"
+  super_glueaxg: "**/super_glueaxg.jsonl"
+  super_gluecb: "**/super_gluecb.jsonl"
+  super_gluemultirc: "**/super_gluemultirc.jsonl"
+  XNLIen: "**/xnlien.jsonl"
+
+workers: 20
+shot: 5

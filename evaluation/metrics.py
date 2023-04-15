@@ -1,3 +1,5 @@
+from types import resolve_bases
+import jsonlines
 import re
 import math
 import string
@@ -50,7 +52,7 @@ def bleu_score(predictions, ground_truths):
     smoothing = SmoothingFunction()
     for prediction, ground_truth in zip(predictions, ground_truths):
         if not isinstance(prediction, str):
-            print("Return error")
+            print(f"Return error {prediction}")
             continue
         prediction = normalize_answer(prediction).split()
         ground_truths = []
@@ -141,6 +143,29 @@ def calculate_perplexity(loss: List[float], data):
 def special_for_dataset(predictions, examples):
     print_rank_0("Metrics not found, maybe dataset special metric or metric name error")
     return True
+
+def evaluate_file(file, save_path, metrics=["BLEU", "ROUGE", "ACC"]):
+    docs = []
+    predictions = []
+    with jsonlines.open(file, "r") as f:
+        for doc in f:
+            if isinstance(doc["targets"], str):
+                doc["targets"] = [doc["targets"]]
+            docs.append([doc])
+            predictions.append(doc["prediction"])
+    eval_res = {
+        "length": len(docs),
+    }
+    for metric in metrics:
+        res = DEFAULT_METRICS[metric](predictions, docs)
+        if isinstance(res, dict):
+            eval_res.update(**res)
+        else:
+            eval_res[metric] = res
+    import json
+    with open(save_path, "w", encoding="utf-8") as f:
+        f.write(json.dumps(eval_res, indent=2))
+        f.close()
 
 
 DEFAULT_METRICS = defaultdict(lambda: special_for_dataset)
