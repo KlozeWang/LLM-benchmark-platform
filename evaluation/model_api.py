@@ -72,7 +72,11 @@ class api_model:
 
 class ChatGPT(api_model):
     def __init__(self, workers=10):
+<<<<<<< HEAD
         self.url =  "http://45.41.95.10:10001/api/openai/chat-completion"  # yuhao提供的接口
+=======
+        self.url = ""  # yuhao提供的接口
+>>>>>>> ff66bac7842ac07c529f51b789c7694d6d3e0a92
         self.model = "gpt-3.5-turbo"
         self.workers = workers
 
@@ -99,7 +103,11 @@ class ChatGPT(api_model):
 
 class GPT3(api_model):
     def __init__(self, workers=10):
+<<<<<<< HEAD
         self.url = "http://45.41.95.10:10001/api/openai/completion"
+=======
+        self.url = ""
+>>>>>>> ff66bac7842ac07c529f51b789c7694d6d3e0a92
         self.model = "text-davinci-003"
         self.workers = workers
 

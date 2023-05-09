@@ -1,0 +1,7 @@
+name: "test-Summ"
+type: "gen"
+path: "test/data"
+module: "evaluation.tasks.GenerationTask"
+file-pattern:
+  REALSumm: "**/REALSumm.jsonl"
+workers: 20

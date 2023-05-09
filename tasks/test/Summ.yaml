@@ -1,0 +1,9 @@
+name: "test-Summ"
+type: "gen"
+path: "test/data"
+language: "en"
+prompt: "Summary follow article: {input} \n TLDR:"
+file-pattern:
+  REALSumm: "**/REALSumm.jsonl"
+workers: 16
+shot: 1
