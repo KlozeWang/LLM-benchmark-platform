@@ -1,0 +1,8 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  Commonsense_QA: "**/commonsense_qa.jsonl"
+workers: 20
+shot: 5

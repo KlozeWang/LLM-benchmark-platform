@@ -1,0 +1,8 @@
+name: "test_sciq"  # Task Name
+type: "gen"  # Task type, 'gen' (generate)
+path: "llm/data"  # task data path relative to DATA_PATH in 'evaluate.sh'
+file-pattern: # Organize jsonl file in groups
+  sciq: "**/sciq.jsonl" # Will search for all file named 'validation.jsonl' in 
+workers: 2 # Parallel Call Limit
+shot: 0 # (zero-shot or few-shot, Set to 0 by default.
+language: "en" # language of your dataset, "en" or "cn".Set to "en" by default.

@@ -1,0 +1,9 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  common_gen: "**/common_gen.jsonl"
+  wiki_qa: "**/wiki_qa.jsonl"
+workers: 20
+shot: 5

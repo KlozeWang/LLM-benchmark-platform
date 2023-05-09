@@ -1,0 +1,12 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  ANLI: "**/anli.jsonl"
+  MULTI_NLI: "**/multi_nli.jsonl"
+  SNLI: "**/snli.jsonl"
+  XNLIen: "**/xnlien.jsonl"
+
+workers: 20
+shot: 5

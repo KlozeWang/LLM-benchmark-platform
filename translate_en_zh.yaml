@@ -1,0 +1,9 @@
+name: "test_translate_en_zh"  # Task Name
+type: "gen"  # Task type, 'gen' (generate)
+path: "llm/data"  # task data path relative to DATA_PATH in 'evaluate.sh'
+prompt: "translate this sentence to Chinese: {question}\n your answer:"
+file-pattern: # Organize jsonl file in groups
+  translate: "**/translate-en-zh.jsonl" # Will search for all file named 'validation.jsonl' in 
+workers: 2 # Parallel Call Limit
+shot: 0 # (zero-shot or few-shot, Set to 0 by default.
+language: "en" # language of your dataset, "en" or "cn".Set to "en" by default.

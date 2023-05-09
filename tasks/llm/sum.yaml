@@ -1,0 +1,11 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  CNNDM: "**/cnn_dailymail3.0.0.jsonl"
+  BillSUM: "**/billsum.jsonl"
+  SamSUM: "**/samsum.jsonl"
+  XSUM: "**/xsum.jsonl"
+workers: 20
+shot: 0

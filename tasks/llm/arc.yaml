@@ -1,0 +1,9 @@
+name: "llm"
+type: "gen"
+path: "llm/data"
+language: "en"
+file-pattern:
+  ARC-challenge: "**/ai2_arcARC-Challenge.jsonl"
+  ARC-easy: "**/ai2_arcARC-Easy.jsonl"
+workers: 20
+shot: 5
